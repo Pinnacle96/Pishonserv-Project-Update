@@ -1,0 +1,66 @@
+[2025-10-22 17:07:42] === New MCP request received ===
+[2025-10-22 17:07:42] Raw input: {"jsonrpc":"2.0","method":"initialize","id":1,"params":{"protocolVersion":"2025-03-26","capabilities":{},"clientInfo":{"name":"openai-mcp","version":"1.0.0"}}}
+[2025-10-22 17:07:42] ✅ API key loaded successfully
+[2025-10-22 17:07:42] Received Authorization header: Bearer f8b4ac4740e6fb980173a3f1300b0502299c9f0d50043f5e411daa972ba7f365
+[2025-10-22 17:07:42] 🔗 Handling MCP initialize request
+[2025-10-22 17:07:42] === New MCP request received ===
+[2025-10-22 17:07:42] Raw input: {"method":"initialize","params":{"protocolVersion":"2025-06-18","capabilities":{},"clientInfo":{"name":"openai-mcp","version":"1.0.0"}},"jsonrpc":"2.0","id":0}
+[2025-10-22 17:07:42] ✅ API key loaded successfully
+[2025-10-22 17:07:42] Received Authorization header: Bearer f8b4ac4740e6fb980173a3f1300b0502299c9f0d50043f5e411daa972ba7f365
+[2025-10-22 17:07:42] 🔗 Handling MCP initialize request
+[2025-10-22 17:07:42] === New MCP request received ===
+[2025-10-22 17:07:42] Raw input: {"method":"notifications/initialized","jsonrpc":"2.0"}
+[2025-10-22 17:07:42] ✅ API key loaded successfully
+[2025-10-22 17:07:42] Received Authorization header: Bearer f8b4ac4740e6fb980173a3f1300b0502299c9f0d50043f5e411daa972ba7f365
+[2025-10-22 17:07:42] ✅ Authorization header verified
+[2025-10-22 17:07:42] 🔔 Received notifications/initialized
+[2025-10-22 17:07:42] === New MCP request received ===
+[2025-10-22 17:07:42] Raw input: {"method":"tools/list","jsonrpc":"2.0","id":1}
+[2025-10-22 17:07:42] ✅ API key loaded successfully
+[2025-10-22 17:07:42] Received Authorization header: Bearer f8b4ac4740e6fb980173a3f1300b0502299c9f0d50043f5e411daa972ba7f365
+[2025-10-22 17:07:42] ✅ Authorization header verified
+[2025-10-22 17:07:42] 🧰 Handling tools/list request
+[2025-10-22 17:07:53] === New MCP request received ===
+[2025-10-22 17:07:53] Raw input: {"jsonrpc":"2.0","method":"initialize","id":1,"params":{"protocolVersion":"2025-03-26","capabilities":{},"clientInfo":{"name":"openai-mcp","version":"1.0.0"}}}
+[2025-10-22 17:07:53] ✅ API key loaded successfully
+[2025-10-22 17:07:53] Received Authorization header: Bearer f8b4ac4740e6fb980173a3f1300b0502299c9f0d50043f5e411daa972ba7f365
+[2025-10-22 17:07:53] 🔗 Handling MCP initialize request
+[2025-10-22 17:07:54] === New MCP request received ===
+[2025-10-22 17:07:54] Raw input: {"method":"initialize","params":{"protocolVersion":"2025-06-18","capabilities":{},"clientInfo":{"name":"openai-mcp","version":"1.0.0"}},"jsonrpc":"2.0","id":0}
+[2025-10-22 17:07:54] ✅ API key loaded successfully
+[2025-10-22 17:07:54] Received Authorization header: Bearer f8b4ac4740e6fb980173a3f1300b0502299c9f0d50043f5e411daa972ba7f365
+[2025-10-22 17:07:54] 🔗 Handling MCP initialize request
+[2025-10-22 17:07:54] === New MCP request received ===
+[2025-10-22 17:07:54] Raw input: {"method":"notifications/initialized","jsonrpc":"2.0"}
+[2025-10-22 17:07:54] ✅ API key loaded successfully
+[2025-10-22 17:07:54] Received Authorization header: Bearer f8b4ac4740e6fb980173a3f1300b0502299c9f0d50043f5e411daa972ba7f365
+[2025-10-22 17:07:54] ✅ Authorization header verified
+[2025-10-22 17:07:54] 🔔 Received notifications/initialized
+[2025-10-22 17:07:54] === New MCP request received ===
+[2025-10-22 17:07:54] Raw input: {"method":"tools/list","jsonrpc":"2.0","id":1}
+[2025-10-22 17:07:54] ✅ API key loaded successfully
+[2025-10-22 17:07:54] Received Authorization header: Bearer f8b4ac4740e6fb980173a3f1300b0502299c9f0d50043f5e411daa972ba7f365
+[2025-10-22 17:07:54] ✅ Authorization header verified
+[2025-10-22 17:07:54] 🧰 Handling tools/list request
+[2025-10-22 17:08:32] === New MCP request received ===
+[2025-10-22 17:08:32] Raw input: {"jsonrpc":"2.0","method":"initialize","id":1,"params":{"protocolVersion":"2025-03-26","capabilities":{},"clientInfo":{"name":"openai-mcp","version":"1.0.0"}}}
+[2025-10-22 17:08:32] ✅ API key loaded successfully
+[2025-10-22 17:08:32] Received Authorization header: Bearer f8b4ac4740e6fb980173a3f1300b0502299c9f0d50043f5e411daa972ba7f365
+[2025-10-22 17:08:32] 🔗 Handling MCP initialize request
+[2025-10-22 17:08:33] === New MCP request received ===
+[2025-10-22 17:08:33] Raw input: {"method":"initialize","params":{"protocolVersion":"2025-06-18","capabilities":{},"clientInfo":{"name":"openai-mcp","version":"1.0.0"}},"jsonrpc":"2.0","id":0}
+[2025-10-22 17:08:33] ✅ API key loaded successfully
+[2025-10-22 17:08:33] Received Authorization header: Bearer f8b4ac4740e6fb980173a3f1300b0502299c9f0d50043f5e411daa972ba7f365
+[2025-10-22 17:08:33] 🔗 Handling MCP initialize request
+[2025-10-22 17:08:33] === New MCP request received ===
+[2025-10-22 17:08:33] Raw input: {"method":"notifications/initialized","jsonrpc":"2.0"}
+[2025-10-22 17:08:33] ✅ API key loaded successfully
+[2025-10-22 17:08:33] Received Authorization header: Bearer f8b4ac4740e6fb980173a3f1300b0502299c9f0d50043f5e411daa972ba7f365
+[2025-10-22 17:08:33] ✅ Authorization header verified
+[2025-10-22 17:08:33] 🔔 Received notifications/initialized
+[2025-10-22 17:08:33] === New MCP request received ===
+[2025-10-22 17:08:33] Raw input: {"method":"tools/list","jsonrpc":"2.0","id":1}
+[2025-10-22 17:08:33] ✅ API key loaded successfully
+[2025-10-22 17:08:33] Received Authorization header: Bearer f8b4ac4740e6fb980173a3f1300b0502299c9f0d50043f5e411daa972ba7f365
+[2025-10-22 17:08:33] ✅ Authorization header verified
+[2025-10-22 17:08:33] 🧰 Handling tools/list request

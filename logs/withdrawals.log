@@ -1,0 +1,5 @@
+[2025-09-10 02:30:41] User 9 withdrawal error: Unknown column 'reference' in 'INSERT INTO'
+[2025-09-10 02:36:43] User 9 reserved ₦1000 for withdrawal #1, ref=WD-9-02ca7a070ee7
+[2025-09-10 02:36:43] User 9 withdrawal #1 failed: Your balance is not enough to fulfil this request
+[2025-10-20 16:46:46] User 9 reserved ₦1900 for withdrawal #2, ref=WD-9-4eb2e2d696c3
+[2025-10-20 16:46:47] User 9 withdrawal #2 succeeded, ₦1900, transfer_code=TRF_3ihjknifavuzj0mt

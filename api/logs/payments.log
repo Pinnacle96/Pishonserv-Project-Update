@@ -1,0 +1,2 @@
+[2025-11-28 17:36:37] [INFO] ip=unknown path= msg=payments_list_response ctx={"count":3}
+[2025-11-28 17:36:37] [ERROR] ip=unknown path= msg=payment_webhook_invalid_signature ctx=[]

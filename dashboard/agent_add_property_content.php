@@ -1,0 +1,385 @@
+<?php
+// ✅ CSRF token setup
+if (!isset($_SESSION['csrf_token'])) {
+    $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+}
+if (!function_exists('csrf_token_input')) {
+    function csrf_token_input()
+    {
+        return '<input type="hidden" name="csrf_token" value="' . htmlspecialchars($_SESSION['csrf_token']) . '">';
+    }
+}
+
+// ✅ Dynamic Property Type Array
+// This array will be passed to JavaScript to dynamically populate the select menu
+$property_type = [
+    'buy' => ['apartment','office','event_center','hotel','house','villa','condo','townhouse','duplex','penthouse','studio','bungalow','commercial','warehouse','retail','land','farmhouse','mixed_use'],
+    'rent' => ['apartment', 'office', 'house', 'duplex', 'studio', 'bungalow'],
+    'shortlet' => ['apartment', 'villa', 'studio', 'duplex', 'short_stay'],
+    'hotel' => [
+        'hotel', 'resort', 'motel', 'guest_house', 'bed_and_breakfast', 'boutique_hotel',
+        'apartment_hotel', 'hostel', 'lodge', 'villa', 'chalet', 'homestay',
+        'capsule_hotel', 'inn', 'farm_stay'
+    ]
+];
+?>
+
+<div class="mt-6">
+    <h2 class="text-2xl font-bold text-gray-800 dark:text-gray-200">Add New Property</h2>
+    <form action="../process/agent_add_property.php" method="POST" enctype="multipart/form-data"
+        class="bg-white dark:bg-gray-800 mt-6 p-6 rounded shadow-md">
+
+        <?php echo csrf_token_input(); ?>
+        <input type="hidden" name="MAX_FILE_SIZE" value="20971520">
+
+        <!-- Basic Fields -->
+        <div class="mb-4">
+            <input type="hidden" name="property_code" value="">
+
+            <label class="block" id="title-label">Title</label>
+            <input type="text" name="title" id="title-input" required class="w-full p-3 border rounded mt-1"
+                placeholder="e.g., Luxurious Apartment">
+        </div>
+
+        <div class="mb-4">
+            <label class="block">Location</label>
+            <input type="text" name="location" required class="w-full p-3 border rounded mt-1">
+        </div>
+
+        <div class="mb-4">
+            <label class="block">Listing Type</label>
+            <select name="listing_type" id="listing_type" required class="w-full p-3 border rounded mt-1">
+                <option value="">Select</option>
+                <option value="for_sale">For Sale</option>
+                <option value="for_rent">For Rent</option>
+                <option value="short_let">Short Let</option>
+                <option value="hotel">Hotel</option>
+            </select>
+        </div>
+        <div class="mb-4">
+            <label class="block">Price (₦)</label>
+            <input type="number" id="price" name="price" required class="w-full p-3 border rounded mt-1"
+                placeholder="e.g., 5000000">
+        </div>
+
+        <!-- Corrected Property Type dropdown -->
+        <div class="mb-4">
+            <label class="block">Property Type</label>
+            <select name="type" id="property_type" required class="w-full p-3 border rounded mt-1">
+                <option value="">Please select a listing type first</option>
+            </select>
+        </div>
+
+        <!-- Global Fields -->
+        <div class="mb-4">
+            <label class="block">Amenities</label>
+            <div class="flex flex-wrap">
+                <hr class='my-6 w-full'>
+                <label class="w-1/3 p-2"><input type="checkbox" name="amenities[]" value="Pool"> Pool</label>
+                <label class="w-1/3 p-2"><input type="checkbox" name="amenities[]" value="Gym"> Gym</label>
+                <label class="w-1/3 p-2"><input type="checkbox" name="amenities[]" value="Parking"> Parking</label>
+                <label class="w-1/3 p-2"><input type="checkbox" name="amenities[]" value="Security"> Security</label>
+                <label class="w-1/3 p-2"><input type="checkbox" name="amenities[]" value="Garden"> Garden</label>
+                <label class="w-1/3 p-2"><input type="checkbox" name="amenities[]" value="Elevator"> Elevator</label>
+                <label class="w-1/3 p-2"><input type="checkbox" name="amenities[]" value="Balcony"> Balcony</label>
+                <label class="w-1/3 p-2"><input type="checkbox" name="amenities[]" value="CCTV"> CCTV</label>
+                <label class="w-1/3 p-2"><input type="checkbox" name="amenities[]" value="Internet"> Internet</label>
+                <label class="w-1/3 p-2"><input type="checkbox" name="amenities[]" value="Air Conditioning"> Air
+                    Conditioning</label>
+                <label class="w-1/3 p-2"><input type="checkbox" name="amenities[]" value="Fireplace"> Fireplace</label>
+                <label class="w-1/3 p-2"><input type="checkbox" name="amenities[]" value="Washer/Dryer">
+                    Washer/Dryer</label>
+                <label class="w-1/3 p-2"><input type="checkbox" name="amenities[]" value="Generator"> Generator</label>
+                <label class="w-1/3 p-2"><input type="checkbox" name="amenities[]" value="Solar Power"> Solar
+                    Power</label>
+                <label class="w-1/3 p-2"><input type="checkbox" name="amenities[]" value="Borehole Water"> Borehole
+                    Water</label>
+                <label class="w-1/3 p-2"><input type="checkbox" name="amenities[]" value="Playground">
+                    Playground</label>
+                <label class="w-1/3 p-2"><input type="checkbox" name="amenities[]" value="Clubhouse"> Clubhouse</label>
+                <label class="w-1/3 p-2"><input type="checkbox" name="amenities[]" value="Tennis Court"> Tennis
+                    Court</label>
+                <label class="w-1/3 p-2"><input type="checkbox" name="amenities[]" value="Sauna"> Sauna</label>
+            </div>
+        </div>
+
+        <div class="mb-4">
+            <label class="block">Furnishing Status <small class='text-gray-500'>(e.g., Fully Furnished
+                    Apartment)</small></label>
+            <select name="furnishing_status" class="w-full p-3 border rounded mt-1">
+                <option value="">Select</option>
+                <option value="furnished">Furnished</option>
+                <option value="semi_furnished">Semi-Furnished</option>
+                <option value="unfurnished">Unfurnished</option>
+            </select>
+        </div>
+
+        <div class="mb-4">
+            <label class="block">Property Condition <small class='text-gray-500'>(e.g., Recently
+                    Renovated)</small></label>
+            <select name="property_condition" class="w-full p-3 border rounded mt-1">
+                <option value="">Select</option>
+                <option value="new">New</option>
+                <option value="fairly_used">Fairly Used</option>
+                <option value="renovated">Renovated</option>
+            </select>
+        </div>
+
+        <!-- Final Global Fields -->
+        <div class="mb-4">
+            <label class="block">Bedrooms</label>
+            <input type="number" name="bedrooms" required min="0" class="w-full p-3 border rounded mt-1"
+                placeholder="e.g., 3">
+        </div>
+
+        <div class="mb-4">
+            <label class="block">Bathrooms</label>
+            <input type="number" name="bathrooms" required min="0" class="w-full p-3 border rounded mt-1"
+                placeholder="e.g., 2">
+        </div>
+
+        <div class="mb-4">
+            <label class="block">Size (sqft or acres)</label>
+            <input type="text" name="size" required class="w-full p-3 border rounded mt-1"
+                placeholder="e.g., 2000 sqft or 5 acres">
+        </div>
+
+        <div class="mb-4">
+            <label class="block">Garage Spaces</label>
+            <input type="number" name="garage" required min="0" class="w-full p-3 border rounded mt-1"
+                placeholder="e.g., 1">
+        </div>
+
+        <div class="mb-4">
+            <label class="block">Description</label>
+            <textarea name="description" required minlength="20" class="w-full p-3 border rounded mt-1"
+                placeholder="Provide a detailed description of the property..." rows="4"
+                class="w-full p-3 border rounded mt-1" ></textarea>
+        </div>
+        <div class="mb-4">
+            <label class="block">Upload Property Images <small class="text-gray-500">(Max 7 images)</small></label>
+            <input type="file" name="images[]" id="images" multiple required accept="image/*"
+                class="w-full p-3 border rounded mt-1">
+            <small class="text-gray-500">Images will be auto-compressed. Accepted: JPG, PNG, GIF.</small>
+            <div id="image-preview" class="mt-2 flex flex-wrap gap-2"></div>
+        </div>
+
+
+        <div id="dynamic-fields"></div>
+
+        <button type="submit" class="bg-[#F4A124] text-white w-full py-3 rounded hover:bg-[#d88b1c] mt-4">
+            Add Property
+        </button>
+    </form>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const listingType = document.getElementById("listing_type");
+    const propertyTypeSelect = document.getElementById("property_type"); // Added ID to the select
+    const priceInput = document.getElementById("price");
+    const titleLabel = document.getElementById("title-label");
+    const titleInput = document.getElementById("title-input");
+
+    const fields = {
+        furnishing: document.querySelector("select[name='furnishing_status']").closest(".mb-4"),
+        condition: document.querySelector("select[name='property_condition']").closest(".mb-4"),
+        bedrooms: document.querySelector("input[name='bedrooms']").closest(".mb-4"),
+        bathrooms: document.querySelector("input[name='bathrooms']").closest(".mb-4"),
+        size: document.querySelector("input[name='size']").closest(".mb-4"),
+        garage: document.querySelector("input[name='garage']").closest(".mb-4")
+    };
+
+    // Corrected PHP array to a JavaScript object
+    const propertyTypes = <?php echo json_encode($property_type); ?>;
+    
+    // Mapping from form values to the PHP array keys
+    const listingTypeMap = {
+        'for_sale': 'buy',
+        'for_rent': 'rent',
+        'short_let': 'shortlet',
+        'hotel': 'hotel'
+    };
+
+    function toggleField(fieldWrapper, visible, required = false) {
+        if (!fieldWrapper) return;
+        fieldWrapper.style.display = visible ? "" : "none";
+        const input = fieldWrapper.querySelector("input, select, textarea");
+        if (input) {
+            if (visible && required) {
+                input.setAttribute("required", "required");
+            } else {
+                input.removeAttribute("required");
+            }
+        }
+    }
+
+    // New function to update the Property Type dropdown
+    function updatePropertyTypeOptions(selectedType) {
+        // Clear previous options
+        propertyTypeSelect.innerHTML = '';
+        
+        let initialOption = document.createElement('option');
+        initialOption.value = '';
+        initialOption.textContent = 'Select';
+        propertyTypeSelect.appendChild(initialOption);
+
+        const mappedKey = listingTypeMap[selectedType];
+        if (mappedKey && propertyTypes[mappedKey]) {
+            propertyTypes[mappedKey].forEach(type => {
+                let option = document.createElement('option');
+                option.value = type;
+                // Capitalize the first letter and replace underscores with spaces for display
+                const displayType = type.charAt(0).toUpperCase() + type.slice(1).replace(/_/g, ' ');
+                option.textContent = displayType;
+                propertyTypeSelect.appendChild(option);
+            });
+        }
+    }
+
+    function updateDynamicFields(type) {
+        const container = document.getElementById("dynamic-fields");
+        let html = "";
+
+        if (type === "for_sale" || type === "for_rent") {
+            html +=
+                `
+            <div class='mb-4'><label>Maintenance Fee (₦)</label><input type='number' name='maintenance_fee' class='w-full p-3 border rounded mt-1'></div>
+            <div class='mb-4'><label>Agent Fee (₦)</label><input type='number' id='agent_fee' name='agent_fee' class='w-full p-3 border rounded mt-1' readonly></div>
+            <div class='mb-4'><label>Caution Fee (₦)</label><input type='number' id='caution_fee' name='caution_fee' class='w-full p-3 border rounded mt-1' readonly></div>`;
+        }
+
+        if (type === "for_rent" || type === "short_let" || type === "hotel") {
+            html += `<div class='mb-4'><label>Price Frequency</label>
+                <select name='price_frequency' class='w-full p-3 border rounded mt-1' required>
+                    <option value=''>Select</option>
+                    <option value='per_day'>Per Day</option>
+                    <option value='per_night'>Per Night</option>
+                    <option value='per_month'>Per Month</option>
+                    <option value='per_annum'>Per Annum</option>
+                </select></div>`;
+        }
+
+        if (type === "short_let") {
+            html +=
+                `
+            <div class='mb-4'><label>Minimum Stay (nights)</label><input type='number' name='minimum_stay' required class='w-full p-3 border rounded mt-1'></div>
+            <div class='mb-4'><label>Check-in Time</label><input type='time' name='checkin_time' required class='w-full p-3 border rounded mt-1'></div>
+            <div class='mb-4'><label>Check-out Time</label><input type='time' name='checkout_time' required class='w-full p-3 border rounded mt-1'></div>`;
+        }
+
+        if (type === "hotel") {
+            html +=
+                `
+            <div class='mb-4'><label>Room Type</label><input type='text' name='room_type' required class='w-full p-3 border rounded mt-1'></div>
+            <div class='mb-4'><label>Star Rating</label>
+                <select name='star_rating' required class='w-full p-3 border rounded mt-1'>
+                    <option value=''>Select</option>
+                    <option value='1'>1 Star</option>
+                    <option value='2'>2 Stars</option>
+                    <option value='3'>3 Stars</option>
+                    <option value='4'>4 Stars</option>
+                    <option value='5'>5 Stars</option>
+                </select></div>
+            <div class='mb-4'><label>Check-in Time</label><input type='time' name='checkin_time' required class='w-full p-3 border rounded mt-1'></div>
+            <div class='mb-4'><label>Check-out Time</label><input type='time' name='checkout_time' required class='w-full p-3 border rounded mt-1'></div>
+            <div class='mb-4'><label>Policies</label><textarea name='policies' class='w-full p-3 border rounded mt-1' required></textarea></div>`;
+        }
+
+        container.innerHTML = html;
+    }
+
+    listingType.addEventListener("change", function() {
+        const type = listingType.value;
+
+        // Update title label and placeholder
+        titleLabel.textContent = (type === "hotel") ? "Hotel Name" : "Title";
+        titleInput.placeholder = (type === "hotel") ? "e.g., Sheraton Lagos Hotel" :
+            "e.g., Luxurious Apartment";
+
+        // Call the new function to update the property type dropdown
+        updatePropertyTypeOptions(type);
+
+        updateDynamicFields(type);
+
+        toggleField(fields.furnishing, type !== "hotel", true);
+        toggleField(fields.condition, type !== "hotel", true);
+        toggleField(fields.bedrooms, type !== "hotel", true);
+        toggleField(fields.bathrooms, type !== "hotel", true);
+        toggleField(fields.size, type === "for_sale" || type === "for_rent", true);
+        toggleField(fields.garage, type !== "hotel", true);
+    });
+
+    priceInput.addEventListener("input", function() {
+        if (["for_sale", "for_rent"].includes(listingType.value)) {
+            const price = parseFloat(priceInput.value) || 0;
+            const agentFee = document.getElementById("agent_fee");
+            const cautionFee = document.getElementById("caution_fee");
+            if (agentFee) agentFee.value = (price * 0.1).toFixed(2);
+            if (cautionFee) cautionFee.value = (price * 0.1).toFixed(2);
+        }
+    });
+
+    document.getElementById('images').addEventListener('change', function(e) {
+        const preview = document.getElementById('image-preview');
+        preview.innerHTML = '';
+        const files = e.target.files;
+        if (files.length > 7) {
+            // Replaced alert with a custom message box
+            const message = 'You can upload a maximum of 7 images.';
+            // In a real application, you'd show a modal or a styled div.
+            console.log(message); // Log for demonstration
+            e.target.value = '';
+            return;
+        }
+        for (let i = 0; i < files.length; i++) {
+            const file = files[i];
+            if (!file.type.startsWith('image/')) continue;
+            const reader = new FileReader();
+            reader.onload = function(event) {
+                const img = document.createElement('img');
+                img.src = event.target.result;
+                img.classList.add('w-20', 'h-20', 'object-cover', 'rounded', 'border',
+                    'border-gray-300');
+                preview.appendChild(img);
+            };
+            reader.readAsDataURL(file);
+        }
+    });
+    
+    // Initial call to set up the form on page load
+    listingType.dispatchEvent(new Event('change'));
+});
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.querySelector("form");
+    const description = document.querySelector("textarea[name='description']");
+
+    form.addEventListener("submit", function (e) {
+        const text = description.value;
+
+        // Regex patterns
+        const phonePattern = /\+?\d{2,4}?[-.\s]?\(?\d{2,4}\)?[-.\s]?\d{3,4}[-.\s]?\d{3,4}/g;
+        const addressPattern = /\b(street|st\.|road|rd\.|avenue|ave|lane|ln|close|crescent|house|building|block)\b/ig;
+
+        let blockedMatch = null;
+
+        if (phonePattern.test(text)) {
+            blockedMatch = text.match(phonePattern)[0];
+        } else if (addressPattern.test(text)) {
+            blockedMatch = text.match(addressPattern)[0];
+        }
+
+        if (blockedMatch) {
+            e.preventDefault();
+            Swal.fire({
+                icon: 'error',
+                title: '❌ Not Allowed',
+                html: `Please remove <b>"${blockedMatch}"</b> from the description before submitting.`
+            });
+            return false;
+        }
+    });
+});
+</script>

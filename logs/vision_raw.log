@@ -1,0 +1,3058 @@
+[2025-05-08 10:22:00] Raw response: {
+  "error": {
+    "code": 403,
+    "message": "This API method requires billing to be enabled. Please enable billing on project #581379890263 by visiting https://console.developers.google.com/billing/enable?project=581379890263 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry.",
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "BILLING_DISABLED",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "vision.googleapis.com",
+          "containerInfo": "581379890263",
+          "consumer": "projects/581379890263"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "This API method requires billing to be enabled. Please enable billing on project #581379890263 by visiting https://console.developers.google.com/billing/enable?project=581379890263 then retry. If you enabled billing for this project recently, wait a few minutes for the action to propagate to our systems and retry."
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Google developers console billing",
+            "url": "https://console.developers.google.com/billing/enable?project=581379890263"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+[2025-05-09 13:42:10] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_LIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "LIKELY",
+        "violence": "UNLIKELY",
+        "racy": "VERY_LIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 13:47:33] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 13:47:37] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 13:47:42] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 13:47:47] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 13:47:52] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 13:53:56] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 13:54:03] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 13:54:08] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 13:56:06] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 13:56:11] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 13:56:16] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 13:57:35] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 13:57:39] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 13:57:44] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:02:44] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:02:49] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:02:54] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:02:59] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:09:30] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:09:35] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:09:41] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:10:22] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:10:27] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:10:33] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:15:20] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:15:25] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:17:11] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:17:16] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:20:52] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:20:56] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:21:01] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:22:03] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:22:08] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:31:25] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:31:29] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:31:34] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:44:45] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_LIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "LIKELY",
+        "violence": "UNLIKELY",
+        "racy": "VERY_LIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:46:17] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:46:23] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:46:28] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:46:36] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:46:41] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:52:17] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:52:22] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:52:27] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 14:52:31] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 15:11:45] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 15:11:47] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 15:11:49] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-09 15:14:15] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_LIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "LIKELY",
+        "violence": "UNLIKELY",
+        "racy": "VERY_LIKELY"
+      }
+    }
+  ]
+}
+
+[2025-05-28 23:03:09] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-06-24 08:59:29] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-06-24 08:59:30] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-06-24 08:59:32] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-06-24 08:59:34] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-06-24 09:10:18] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-06-24 09:10:20] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-06-24 09:10:22] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-06-24 09:10:24] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-06-24 09:35:30] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-06-24 09:35:30] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-06-24 09:35:31] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-06-24 09:45:33] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-06-24 09:45:34] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-06-24 09:45:35] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-06-24 09:45:35] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-06-24 09:45:36] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-17 14:22:01] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-18 07:51:57] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-18 07:51:57] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-18 07:51:58] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-18 08:15:13] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-18 08:15:13] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-18 08:15:14] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-18 08:15:14] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-18 08:37:36] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-18 08:37:36] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-18 08:37:37] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-18 08:50:57] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-18 08:50:57] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-18 08:50:58] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-18 08:56:29] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-18 09:34:58] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-18 09:47:51] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-18 09:47:52] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-18 11:03:18] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-18 11:03:18] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-23 13:26:19] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-23 13:26:22] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-24 08:52:45] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-24 09:00:02] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-24 09:07:56] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-24 09:07:57] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-24 09:07:57] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-24 09:07:57] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-24 09:07:58] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-24 09:07:58] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-24 09:07:58] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-24 09:18:41] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-24 09:27:06] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-24 09:35:27] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-24 13:29:28] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-24 13:36:10] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-25 09:17:52] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-28 10:50:21] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-07-28 10:57:38] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-05 10:10:05] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-05 10:10:06] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-05 10:10:07] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-05 10:10:08] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-05 10:10:08] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-05 10:10:09] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-05 10:10:10] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-05 10:24:14] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-05 10:24:15] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-05 10:24:15] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "POSSIBLE"
+      }
+    }
+  ]
+}
+
+[2025-08-05 10:24:16] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-05 10:24:17] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-05 10:24:17] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-05 10:24:18] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-10 20:58:10] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "UNLIKELY",
+        "violence": "UNLIKELY",
+        "racy": "POSSIBLE"
+      }
+    }
+  ]
+}
+
+[2025-08-13 14:40:43] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-18 10:54:05] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-18 10:54:07] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-18 10:54:09] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-18 10:54:12] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-18 10:54:15] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-18 10:54:17] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-18 10:54:19] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-18 10:55:04] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-18 10:55:06] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-18 10:55:09] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-18 10:55:11] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-18 10:55:14] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-18 10:55:16] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-18 10:55:18] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-27 22:02:19] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-27 22:02:19] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-27 22:02:19] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-27 22:02:20] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-27 22:02:20] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-08-27 22:02:21] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-09-02 13:20:10] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-09-02 13:20:10] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-09-02 13:20:11] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-09-02 13:20:11] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-09-02 13:20:12] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-09-02 13:20:12] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-09-02 13:20:13] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-09-04 10:55:34] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-09-04 10:55:34] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-09-04 10:55:35] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-09-04 10:55:35] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-09-04 10:55:36] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-09-04 10:55:36] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-09-04 10:55:37] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-09-29 10:54:29] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-09-29 10:54:30] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-13 10:10:45] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-13 10:10:45] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-13 10:10:45] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-17 11:21:17] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-17 11:21:20] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-17 11:21:22] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-17 11:21:25] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-17 11:27:07] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-17 11:27:09] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-17 11:27:12] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-17 11:27:14] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-17 11:27:17] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-21 15:23:09] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-21 16:03:05] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-21 16:03:06] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-21 16:03:07] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-21 16:03:08] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-21 16:03:09] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "POSSIBLE",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "UNLIKELY",
+        "violence": "UNLIKELY",
+        "racy": "LIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-22 10:27:31] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-22 10:27:32] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-22 10:27:32] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-22 10:27:32] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-22 10:27:33] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-22 10:27:33] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-22 10:27:34] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-26 13:57:46] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-26 13:57:47] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-26 13:57:47] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-26 13:57:48] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-26 13:57:48] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-26 13:57:48] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-26 13:57:49] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-26 16:02:13] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "POSSIBLE",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-26 16:02:13] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "LIKELY",
+        "medical": "UNLIKELY",
+        "violence": "UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-26 16:02:14] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-26 16:02:15] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-26 16:02:17] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-26 16:02:18] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-10-26 16:02:19] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-11-07 12:24:55] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-11-07 12:24:56] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-11-07 12:24:56] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-11-07 12:24:56] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-11-07 12:24:57] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-11-07 12:24:57] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-11-07 12:24:57] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-11-07 17:13:58] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-11-07 17:14:00] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-11-07 17:14:01] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-11-07 17:14:02] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-11-07 17:14:03] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-11-07 17:14:05] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-11-07 17:14:06] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-11-12 08:54:44] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-11-12 08:54:44] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-11-12 08:54:45] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+
+[2025-11-12 08:54:45] Raw response: {
+  "responses": [
+    {
+      "safeSearchAnnotation": {
+        "adult": "VERY_UNLIKELY",
+        "spoof": "VERY_UNLIKELY",
+        "medical": "VERY_UNLIKELY",
+        "violence": "VERY_UNLIKELY",
+        "racy": "VERY_UNLIKELY"
+      }
+    }
+  ]
+}
+

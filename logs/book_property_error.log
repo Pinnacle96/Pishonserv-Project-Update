@@ -1,0 +1,2123 @@
+[28-Apr-2025 12:00:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'zoho_deal_id' in 'SET' in /home/u561302917/domains/pishonserv.com/public_html/__dev/includes/zoho_functions.php:335
+Stack trace:
+#0 /home/u561302917/domains/pishonserv.com/public_html/__dev/includes/zoho_functions.php(335): mysqli->prepare()
+#1 /home/u561302917/domains/pishonserv.com/public_html/__dev/book_property.php(151): createZohoBooking()
+#2 {main}
+  thrown in /home/u561302917/domains/pishonserv.com/public_html/__dev/includes/zoho_functions.php on line 335
+[28-Apr-2025 12:02:29 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=13&check_in=2025-04-30&check_out=2025-05-01&booking_id=69
+[28-Apr-2025 12:05:10 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=25&check_in=2025-04-28&check_out=2025-04-30&booking_id=70
+[28-Apr-2025 12:37:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'b.booking_date' in 'SELECT' in /home/u561302917/domains/pishonserv.com/public_html/__dev/includes/zoho_functions.php:284
+Stack trace:
+#0 /home/u561302917/domains/pishonserv.com/public_html/__dev/includes/zoho_functions.php(284): mysqli->prepare()
+#1 /home/u561302917/domains/pishonserv.com/public_html/__dev/book_property.php(151): createZohoBooking()
+#2 {main}
+  thrown in /home/u561302917/domains/pishonserv.com/public_html/__dev/includes/zoho_functions.php on line 284
+[28-Apr-2025 12:38:49 UTC] ❌ Zoho API Error: {"data":[{"code":"INVALID_DATA","details":{"api_name":"Contact_Name"},"message":"invalid data","status":"error"}]}
+[28-Apr-2025 12:51:38 UTC] ❌ Zoho API Error: {"data":[{"code":"INVALID_DATA","details":{"expected_data_type":"bigint","api_name":"Property_Posted_By"},"message":"invalid data","status":"error"}]}
+[28-Apr-2025 12:51:38 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=25&check_in=2025-05-01&check_out=2025-05-02&booking_id=75
+[28-Apr-2025 12:54:04 UTC] ❌ Zoho API Error: {"data":[{"code":"INVALID_DATA","details":{"expected_data_type":"bigint","api_name":"Property_Posted_By"},"message":"invalid data","status":"error"}]}
+[28-Apr-2025 13:01:21 UTC] ❌ Zoho API Error: {"data":[{"code":"INVALID_DATA","details":{"expected_data_type":"bigint","api_name":"Property_Posted_By"},"message":"invalid data","status":"error"}]}
+[28-Apr-2025 13:02:17 UTC] ❌ Zoho API Error: {"data":[{"code":"INVALID_DATA","details":{"expected_data_type":"bigint","api_name":"Property_Posted_By"},"message":"invalid data","status":"error"}]}
+[28-Apr-2025 13:02:17 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=25&check_in=2025-05-01&check_out=2025-05-02&booking_id=78
+[28-Apr-2025 13:32:26 UTC] ❌ Zoho API Error: {"data":[{"code":"INVALID_DATA","details":{"expected_data_type":"bigint","api_name":"Property_Posted_By"},"message":"invalid data","status":"error"}]}
+[28-Apr-2025 13:49:45 UTC] ❌ Zoho API Error: {"data":[{"code":"INVALID_DATA","details":{"expected_data_type":"bigint","api_name":"Property_Posted_By"},"message":"invalid data","status":"error"}]}
+[28-Apr-2025 13:49:48 UTC] ❌ Zoho API Error: {"data":[{"code":"INVALID_DATA","details":{"expected_data_type":"bigint","api_name":"Property_Posted_By"},"message":"invalid data","status":"error"}]}
+[28-Apr-2025 13:54:56 UTC] ❌ Zoho API Error: {"data":[{"code":"INVALID_DATA","details":{"api_name":"Property_Posted_By"},"message":"invalid data","status":"error"}]}
+[28-Apr-2025 13:54:58 UTC] ❌ Zoho API Error: {"data":[{"code":"INVALID_DATA","details":{"api_name":"Property_Posted_By"},"message":"invalid data","status":"error"}]}
+[28-Apr-2025 13:59:37 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[28-Apr-2025 13:59:37 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Rent)",
+            "Amount": "20.00",
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001557001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001545001"
+            },
+            "Property_Name": "Testing 2",
+            "Check_in_Date": null,
+            "Check_out_Date": null,
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-04-28",
+            "Type": "Duplex",
+            "Closing_Date": "2025-05-28"
+        }
+    ]
+}
+[28-Apr-2025 13:59:38 UTC] ✅ Zoho Deals API Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-04-28T14:59:42+01:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-04-28T14:59:42+01:00","id":"6560565000001561001","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[28-Apr-2025 13:59:38 UTC] ✅ Zoho Booking Created. Deal ID: 6560565000001561001
+[28-Apr-2025 14:08:00 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[28-Apr-2025 14:08:00 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 5,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001557001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001545001"
+            },
+            "Property_Name": "Testing",
+            "Property_Posted_By": {
+                "id": "6560565000001545001"
+            },
+            "Check_in_Date": "2025-05-01",
+            "Check_out_Date": "2025-05-02",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-04-28",
+            "Type": "Short_stay",
+            "Closing_Date": "2025-05-28"
+        }
+    ]
+}
+[28-Apr-2025 14:08:00 UTC] ✅ Zoho Deals API Response: {"data":[{"code":"INVALID_DATA","details":{"api_name":"Property_Posted_By"},"message":"invalid data","status":"error"}]}
+[28-Apr-2025 14:08:00 UTC] ❌ Zoho API Error: {"data":[{"code":"INVALID_DATA","details":{"api_name":"Property_Posted_By"},"message":"invalid data","status":"error"}]}
+[28-Apr-2025 14:08:00 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=25&check_in=2025-05-01&check_out=2025-05-02&booking_id=83
+[28-Apr-2025 14:09:21 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[28-Apr-2025 14:09:21 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 5,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001557001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001545001"
+            },
+            "Property_Name": "Testing",
+            "Check_in_Date": "2025-05-01",
+            "Check_out_Date": "2025-05-02",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-04-28",
+            "Type": "Short_stay",
+            "Closing_Date": "2025-05-28"
+        }
+    ]
+}
+[28-Apr-2025 14:09:22 UTC] ✅ Zoho Deals API Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-04-28T15:09:26+01:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-04-28T15:09:26+01:00","id":"6560565000001546016","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[28-Apr-2025 14:09:22 UTC] ✅ Zoho Booking Created. Deal ID: 6560565000001546016
+[28-Apr-2025 14:09:22 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=25&check_in=2025-05-01&check_out=2025-05-02&booking_id=84
+[28-Apr-2025 14:24:37 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[28-Apr-2025 14:24:37 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 5,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001557001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001545001"
+            },
+            "Property_Name": "Testing",
+            "Check_in_Date": "2025-05-01",
+            "Property_Type": "Short_stay",
+            "Check_out_Date": "2025-05-02",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-04-28",
+            "Type": "Short_stay",
+            "Closing_Date": "2025-05-28"
+        }
+    ]
+}
+[28-Apr-2025 14:24:37 UTC] ✅ Zoho Deals API Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-04-28T15:24:42+01:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-04-28T15:24:42+01:00","id":"6560565000001554002","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[28-Apr-2025 14:24:37 UTC] ✅ Zoho Booking Created. Deal ID: 6560565000001554002
+[28-Apr-2025 14:24:37 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=25&check_in=2025-05-01&check_out=2025-05-02&booking_id=85
+[28-Apr-2025 14:30:24 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[28-Apr-2025 14:30:24 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 5,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001557001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001545001"
+            },
+            "Property_Name": "Testing",
+            "Check_in_Date": "2025-05-03",
+            "Property_Type": "Short_stay",
+            "Check_out_Date": "2025-05-04",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-04-28",
+            "Type": "Short_stay",
+            "Closing_Date": "2025-05-28"
+        }
+    ]
+}
+[28-Apr-2025 14:30:25 UTC] ✅ Zoho Deals API Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-04-28T15:30:29+01:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-04-28T15:30:29+01:00","id":"6560565000001566001","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[28-Apr-2025 14:30:25 UTC] ✅ Zoho Booking Created. Deal ID: 6560565000001566001
+[28-Apr-2025 14:30:25 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=25&check_in=2025-05-03&check_out=2025-05-04&booking_id=86
+[28-Apr-2025 14:34:24 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[28-Apr-2025 14:34:24 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 15,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001557001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001545001"
+            },
+            "Property_Name": "Testing",
+            "Check_in_Date": "2025-05-03",
+            "Property_Type": "Short_stay",
+            "Check_out_Date": "2025-05-06",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-04-28",
+            "Type": "Short_stay",
+            "Closing_Date": "2025-05-28"
+        }
+    ]
+}
+[28-Apr-2025 14:34:25 UTC] ✅ Zoho Deals API Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-04-28T15:34:29+01:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-04-28T15:34:29+01:00","id":"6560565000001542091","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[28-Apr-2025 14:34:25 UTC] ✅ Zoho Booking Created. Deal ID: 6560565000001542091
+[28-Apr-2025 14:34:25 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=25&check_in=2025-05-03&check_out=2025-05-06&booking_id=87
+[28-Apr-2025 14:45:56 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[28-Apr-2025 14:45:56 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 20,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001557001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001545001"
+            },
+            "Property_Name": "Testing",
+            "Check_in_Date": "2025-05-03",
+            "Property_Type": "Short_stay",
+            "Check_out_Date": "2025-05-07",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-04-28",
+            "Type": "Short_stay",
+            "Closing_Date": "2025-05-28"
+        }
+    ]
+}
+[28-Apr-2025 14:45:57 UTC] ✅ Zoho Deals API Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-04-28T15:46:01+01:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-04-28T15:46:01+01:00","id":"6560565000001543040","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[28-Apr-2025 14:45:57 UTC] ✅ Zoho Booking Created. Deal ID: 6560565000001543040
+[28-Apr-2025 14:45:57 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=25&check_in=2025-05-03&check_out=2025-05-07&booking_id=88
+[28-Apr-2025 14:56:05 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[28-Apr-2025 14:56:05 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 35,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001557001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001545001"
+            },
+            "Property_Name": "Testing",
+            "Check_in_Date": "2025-05-03",
+            "Property_Type": "Short_stay",
+            "Check_out_Date": "2025-05-10",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-04-28",
+            "Type": "Short_stay",
+            "Closing_Date": "2025-05-28"
+        }
+    ]
+}
+[28-Apr-2025 14:56:07 UTC] ✅ Zoho Deals API Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-04-28T15:56:11+01:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-04-28T15:56:11+01:00","id":"6560565000001557014","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[28-Apr-2025 14:56:07 UTC] ✅ Zoho Booking Created. Deal ID: 6560565000001557014
+[28-Apr-2025 14:56:07 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=25&check_in=2025-05-03&check_out=2025-05-10&booking_id=89
+[28-Apr-2025 15:01:03 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[28-Apr-2025 15:01:03 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 130,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001557001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001545001"
+            },
+            "Property_Name": "Testing",
+            "Check_in_Date": "2025-05-03",
+            "Property_Type": "Short_stay",
+            "Check_out_Date": "2025-05-29",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-04-28",
+            "Type": "Short_stay",
+            "Closing_Date": "2025-05-28"
+        }
+    ]
+}
+[28-Apr-2025 15:01:03 UTC] ✅ Zoho Deals API Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-04-28T16:01:08+01:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-04-28T16:01:08+01:00","id":"6560565000001554014","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[28-Apr-2025 15:01:03 UTC] ✅ Zoho Booking Created. Deal ID: 6560565000001554014
+[28-Apr-2025 15:01:03 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=25&check_in=2025-05-03&check_out=2025-05-29&booking_id=90
+[28-Apr-2025 15:04:26 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[28-Apr-2025 15:04:26 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 165,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001557001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001545001"
+            },
+            "Property_Name": "Testing",
+            "Check_in_Date": "2025-04-28",
+            "Property_Type": "Short_stay",
+            "Check_out_Date": "2025-05-31",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-04-28",
+            "Type": "Short_stay",
+            "Closing_Date": "2025-05-28"
+        }
+    ]
+}
+[28-Apr-2025 15:04:27 UTC] ✅ Zoho Deals API Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-04-28T16:04:31+01:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-04-28T16:04:31+01:00","id":"6560565000001565013","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[28-Apr-2025 15:04:27 UTC] ✅ Zoho Booking Created. Deal ID: 6560565000001565013
+[28-Apr-2025 15:04:27 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=25&check_in=2025-04-28&check_out=2025-05-31&booking_id=91
+[28-Apr-2025 15:05:26 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[28-Apr-2025 15:05:26 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 15,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001557001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001545001"
+            },
+            "Property_Name": "Testing",
+            "Check_in_Date": "2025-06-01",
+            "Property_Type": "Short_stay",
+            "Check_out_Date": "2025-06-04",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-04-28",
+            "Type": "Short_stay",
+            "Closing_Date": "2025-05-28"
+        }
+    ]
+}
+[28-Apr-2025 15:05:26 UTC] ✅ Zoho Deals API Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-04-28T16:05:31+01:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-04-28T16:05:31+01:00","id":"6560565000001543052","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[28-Apr-2025 15:05:26 UTC] ✅ Zoho Booking Created. Deal ID: 6560565000001543052
+[28-Apr-2025 15:05:26 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=25&check_in=2025-06-01&check_out=2025-06-04&booking_id=92
+[28-Apr-2025 15:26:41 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[28-Apr-2025 15:26:41 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 15,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001557001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001545001"
+            },
+            "Property_Name": "Testing",
+            "Check_in_Date": "2025-06-01",
+            "Property_Type": "Short_stay",
+            "Check_out_Date": "2025-06-04",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-04-28",
+            "Type": "Short_stay",
+            "Closing_Date": "2025-05-28"
+        }
+    ]
+}
+[28-Apr-2025 15:26:42 UTC] ✅ Zoho Deals API Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-04-28T16:26:46+01:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-04-28T16:26:46+01:00","id":"6560565000001568001","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[28-Apr-2025 15:26:42 UTC] ✅ Zoho Booking Created. Deal ID: 6560565000001568001
+[28-Apr-2025 15:26:42 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=25&check_in=2025-06-01&check_out=2025-06-04&booking_id=93
+[28-Apr-2025 15:29:25 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[28-Apr-2025 15:29:25 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 10,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001557001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001545001"
+            },
+            "Property_Name": "Testing",
+            "Check_in_Date": "2025-04-28",
+            "Property_Type": "Short_stay",
+            "Check_out_Date": "2025-04-30",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-04-28",
+            "Type": "Short_stay",
+            "Closing_Date": "2025-05-28"
+        }
+    ]
+}
+[28-Apr-2025 15:29:27 UTC] ✅ Zoho Deals API Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-04-28T16:29:31+01:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-04-28T16:29:31+01:00","id":"6560565000001552014","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[28-Apr-2025 15:29:27 UTC] ✅ Zoho Booking Created. Deal ID: 6560565000001552014
+[28-Apr-2025 15:29:27 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=25&check_in=2025-04-28&check_out=2025-04-30&booking_id=94
+[28-Apr-2025 15:29:27 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[28-Apr-2025 15:29:27 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 10,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001557001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001545001"
+            },
+            "Property_Name": "Testing",
+            "Check_in_Date": "2025-04-28",
+            "Property_Type": "Short_stay",
+            "Check_out_Date": "2025-04-30",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-04-28",
+            "Type": "Short_stay",
+            "Closing_Date": "2025-05-28"
+        }
+    ]
+}
+[28-Apr-2025 15:29:28 UTC] ✅ Zoho Deals API Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-04-28T16:29:32+01:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-04-28T16:29:32+01:00","id":"6560565000001570001","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[28-Apr-2025 15:29:28 UTC] ✅ Zoho Booking Created. Deal ID: 6560565000001570001
+[28-Apr-2025 15:29:28 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=25&check_in=2025-04-28&check_out=2025-04-30&booking_id=95
+[28-Apr-2025 15:31:30 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[28-Apr-2025 15:31:30 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 10,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001557001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001545001"
+            },
+            "Property_Name": "Testing",
+            "Check_in_Date": "2025-05-01",
+            "Property_Type": "Short_stay",
+            "Check_out_Date": "2025-05-03",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-04-28",
+            "Type": "Short_stay",
+            "Closing_Date": "2025-05-28"
+        }
+    ]
+}
+[28-Apr-2025 15:31:31 UTC] ✅ Zoho Deals API Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-04-28T16:31:35+01:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-04-28T16:31:35+01:00","id":"6560565000001561014","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[28-Apr-2025 15:31:31 UTC] ✅ Zoho Booking Created. Deal ID: 6560565000001561014
+[28-Apr-2025 15:31:31 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=25&check_in=2025-05-01&check_out=2025-05-03&booking_id=96
+[28-Apr-2025 15:47:08 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[28-Apr-2025 15:47:08 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 15,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001557001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001545001"
+            },
+            "Property_Name": "Testing",
+            "Check_in_Date": "2025-05-04",
+            "Property_Type": "Short_stay",
+            "Check_out_Date": "2025-05-07",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-04-28",
+            "Type": "Short_stay",
+            "Closing_Date": "2025-05-28"
+        }
+    ]
+}
+[28-Apr-2025 15:47:08 UTC] ✅ Zoho Deals API Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-04-28T16:47:13+01:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-04-28T16:47:13+01:00","id":"6560565000001561026","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[28-Apr-2025 15:47:08 UTC] ✅ Zoho Booking Created. Deal ID: 6560565000001561026
+[28-Apr-2025 15:47:08 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=25&check_in=2025-05-04&check_out=2025-05-07&booking_id=97
+[29-Apr-2025 11:01:02 UTC] ✅ Zoho Lead Converted Successfully. Contact ID: 6560565000001592001
+[29-Apr-2025 11:01:02 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[29-Apr-2025 11:01:02 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Stephanie (Service: Booking)",
+            "Amount": 25,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001592001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001545001"
+            },
+            "Property_Name": "Testing",
+            "Check_in_Date": "2025-05-08",
+            "Property_Type": "Short_stay",
+            "Check_out_Date": "2025-05-13",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-04-29",
+            "Type": "Short_stay",
+            "Closing_Date": "2025-05-29"
+        }
+    ]
+}
+[29-Apr-2025 11:01:02 UTC] ✅ Zoho Deals API Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-04-29T06:01:07-05:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-04-29T06:01:07-05:00","id":"6560565000001593001","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[29-Apr-2025 11:01:02 UTC] ✅ Zoho Booking Created. Deal ID: 6560565000001593001
+[29-Apr-2025 11:01:02 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=25&check_in=2025-05-08&check_out=2025-05-13&booking_id=98
+[02-May-2025 04:37:48 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/__dev/book_property.php on line 13
+[02-May-2025 04:37:48 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/__dev/book_property.php on line 14
+[02-May-2025 11:10:36 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[02-May-2025 11:10:36 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "4steps (Service: Booking)",
+            "Amount": 1800000,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001558001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001542027"
+            },
+            "Property_Name": "hthehee",
+            "Check_in_Date": "2025-05-15",
+            "Property_Type": "Hotel",
+            "Check_out_Date": "2025-05-24",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-05-02",
+            "Type": "Hotel",
+            "Closing_Date": "2025-06-01"
+        }
+    ]
+}
+[02-May-2025 11:10:37 UTC] ✅ Zoho Deals API Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-05-02T06:10:41-05:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-05-02T06:10:41-05:00","id":"6560565000001646002","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[02-May-2025 11:10:37 UTC] ✅ Zoho Booking Created. Deal ID: 6560565000001646002
+[02-May-2025 11:10:37 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=18&check_in=2025-05-15&check_out=2025-05-24&booking_id=99
+[02-May-2025 12:11:07 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[02-May-2025 12:11:07 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "4steps (Service: Booking)",
+            "Amount": 5,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001558001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001545001"
+            },
+            "Property_Name": "Testing",
+            "Check_in_Date": "2025-05-30",
+            "Property_Type": "Short_stay",
+            "Check_out_Date": "2025-05-31",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-05-02",
+            "Type": "Short_stay",
+            "Closing_Date": "2025-06-01"
+        }
+    ]
+}
+[02-May-2025 12:11:08 UTC] ✅ Zoho Deals API Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-05-02T07:11:12-05:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-05-02T07:11:12-05:00","id":"6560565000001657002","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[02-May-2025 12:11:08 UTC] ✅ Zoho Booking Created. Deal ID: 6560565000001657002
+[02-May-2025 12:11:08 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=25&check_in=2025-05-30&check_out=2025-05-31&booking_id=100
+[06-May-2025 21:41:53 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[06-May-2025 21:41:53 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 5,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001543027"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001545001"
+            },
+            "Property_Name": "Testing",
+            "Check_in_Date": "2025-05-14",
+            "Property_Type": "Short_stay",
+            "Check_out_Date": "2025-05-15",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-05-06",
+            "Type": "Short_stay",
+            "Closing_Date": "2025-06-05"
+        }
+    ]
+}
+[06-May-2025 21:41:54 UTC] ✅ Zoho Deals API Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-05-06T16:41:58-05:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-05-06T16:41:58-05:00","id":"6560565000001694003","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[06-May-2025 21:41:54 UTC] ✅ Zoho Booking Created. Deal ID: 6560565000001694003
+[06-May-2025 21:41:54 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=25&check_in=2025-05-14&check_out=2025-05-15&booking_id=101
+[07-May-2025 07:02:19 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[07-May-2025 07:02:19 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 15,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001543027"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001545001"
+            },
+            "Property_Name": "Testing",
+            "Check_in_Date": "2025-05-16",
+            "Property_Type": "Short_stay",
+            "Check_out_Date": "2025-05-19",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-05-07",
+            "Type": "Short_stay",
+            "Closing_Date": "2025-06-06"
+        }
+    ]
+}
+[07-May-2025 07:02:20 UTC] ✅ Zoho Deals API Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-05-07T02:02:24-05:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-05-07T02:02:24-05:00","id":"6560565000001701002","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[07-May-2025 07:02:20 UTC] ✅ Zoho Booking Created. Deal ID: 6560565000001701002
+[07-May-2025 07:02:20 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=25&check_in=2025-05-16&check_out=2025-05-19&booking_id=102
+[07-May-2025 07:06:07 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[07-May-2025 07:06:07 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 200000,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001543027"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001542027"
+            },
+            "Property_Name": "hthehee",
+            "Check_in_Date": "2025-05-08",
+            "Property_Type": "Hotel",
+            "Check_out_Date": "2025-05-09",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-05-07",
+            "Type": "Hotel",
+            "Closing_Date": "2025-06-06"
+        }
+    ]
+}
+[07-May-2025 07:06:08 UTC] ✅ Zoho Deals API Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-05-07T02:06:12-05:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-05-07T02:06:12-05:00","id":"6560565000001703001","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[07-May-2025 07:06:08 UTC] ✅ Zoho Booking Created. Deal ID: 6560565000001703001
+[07-May-2025 07:06:08 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=18&check_in=2025-05-08&check_out=2025-05-09&booking_id=103
+[07-May-2025 07:18:01 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[07-May-2025 07:18:01 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 200000,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001543027"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001542027"
+            },
+            "Property_Name": "hthehee",
+            "Check_in_Date": "2025-05-10",
+            "Property_Type": "Hotel",
+            "Check_out_Date": "2025-05-11",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-05-07",
+            "Type": "Hotel",
+            "Closing_Date": "2025-06-06"
+        }
+    ]
+}
+[07-May-2025 07:18:02 UTC] ✅ Zoho Deals API Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-05-07T02:18:06-05:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-05-07T02:18:06-05:00","id":"6560565000001696009","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[07-May-2025 07:18:02 UTC] ✅ Zoho Booking Created. Deal ID: 6560565000001696009
+[07-May-2025 07:18:02 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=18&check_in=2025-05-10&check_out=2025-05-11&booking_id=104
+[07-May-2025 07:21:30 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[07-May-2025 07:21:30 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 400000,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001543027"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001542027"
+            },
+            "Property_Name": "hthehee",
+            "Check_in_Date": "2025-05-12",
+            "Property_Type": "Hotel",
+            "Check_out_Date": "2025-05-14",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-05-07",
+            "Type": "Hotel",
+            "Closing_Date": "2025-06-06"
+        }
+    ]
+}
+[07-May-2025 07:21:31 UTC] ✅ Zoho Deals API Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-05-07T02:21:35-05:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-05-07T02:21:35-05:00","id":"6560565000001706001","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[07-May-2025 07:21:31 UTC] ✅ Zoho Booking Created. Deal ID: 6560565000001706001
+[07-May-2025 07:21:31 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=18&check_in=2025-05-12&check_out=2025-05-14&booking_id=105
+[07-May-2025 07:33:10 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[07-May-2025 07:33:10 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 500000,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001543027"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001543014"
+            },
+            "Property_Name": "Luxury Home",
+            "Check_in_Date": "2025-05-08",
+            "Property_Type": "Hotel",
+            "Check_out_Date": "2025-05-09",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-05-07",
+            "Type": "Hotel",
+            "Closing_Date": "2025-06-06"
+        }
+    ]
+}
+[07-May-2025 07:33:11 UTC] ✅ Zoho Deals API Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-05-07T02:33:15-05:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-05-07T02:33:15-05:00","id":"6560565000001706013","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[07-May-2025 07:33:11 UTC] ✅ Zoho Booking Created. Deal ID: 6560565000001706013
+[07-May-2025 07:33:11 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=17&check_in=2025-05-08&check_out=2025-05-09&booking_id=106
+[07-May-2025 07:41:11 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[07-May-2025 07:41:11 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 5,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001543027"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001545001"
+            },
+            "Property_Name": "Testing",
+            "Check_in_Date": "2025-05-20",
+            "Property_Type": "Short_stay",
+            "Check_out_Date": "2025-05-21",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-05-07",
+            "Type": "Short_stay",
+            "Closing_Date": "2025-06-06"
+        }
+    ]
+}
+[07-May-2025 07:41:12 UTC] ✅ Zoho Deals API Response: {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-05-07T02:41:16-05:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-05-07T02:41:16-05:00","id":"6560565000001710001","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[07-May-2025 07:41:12 UTC] ✅ Zoho Booking Created. Deal ID: 6560565000001710001
+[07-May-2025 07:41:12 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=25&check_in=2025-05-20&check_out=2025-05-21&booking_id=107
+[07-May-2025 07:57:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function createZohoBooking(), 7 passed in /home/u561302917/domains/pishonserv.com/public_html/__dev/book_property.php on line 151 and exactly 8 expected in /home/u561302917/domains/pishonserv.com/public_html/__dev/includes/zoho_functions.php:270
+Stack trace:
+#0 /home/u561302917/domains/pishonserv.com/public_html/__dev/book_property.php(151): createZohoBooking()
+#1 {main}
+  thrown in /home/u561302917/domains/pishonserv.com/public_html/__dev/includes/zoho_functions.php on line 270
+[07-May-2025 08:03:16 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[07-May-2025 08:03:16 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 1000000,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001543027"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001543014"
+            },
+            "Property_Name": "Luxury Home",
+            "Check_in_Date": "2025-05-10",
+            "Check_out_Date": "2025-05-12",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-05-07",
+            "Type": "Hotel",
+            "Property_Type": "Hotel",
+            "Closing_Date": "2025-06-06"
+        }
+    ]
+}
+[07-May-2025 08:03:16 UTC] 📤 Sending to Zoho: {"data":[{"Deal_Name":"Noah (Service: Booking)","Amount":1000000,"Stage":"Pending","Contact_Name":{"id":"6560565000001543027"},"Vendor_Contact":{"id":"6560565000001543014"},"Property_Name":"Luxury Home","Check_in_Date":"2025-05-10","Check_out_Date":"2025-05-12","Booking_Status":"Pending","Booking_Date":"2025-05-07","Type":"Hotel","Property_Type":"Hotel","Closing_Date":"2025-06-06"}]}
+[07-May-2025 08:03:17 UTC] 📥 Zoho API Response (201): {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-05-07T03:03:21-05:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-05-07T03:03:21-05:00","id":"6560565000001713002","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[07-May-2025 08:03:17 UTC] ✅ Zoho Deal Created. Deal ID: 6560565000001713002 for booking ID: 109
+[07-May-2025 08:03:17 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=17&check_in=2025-05-10&check_out=2025-05-12&booking_id=109
+[07-May-2025 08:11:23 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=17&check_in=2025-05-13&check_out=2025-05-16&booking_id=110
+[07-May-2025 08:13:31 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=25&check_in=2025-05-22&check_out=2025-05-23&booking_id=111
+[07-May-2025 08:25:12 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[07-May-2025 08:25:12 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 5,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001543027"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001545001"
+            },
+            "Property_Name": "Testing",
+            "Check_in_Date": "2025-05-24",
+            "Check_out_Date": "2025-05-25",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-05-07",
+            "Type": "Short_stay",
+            "Property_Type": "Short_stay",
+            "Closing_Date": "2025-06-06"
+        }
+    ]
+}
+[07-May-2025 08:25:12 UTC] 📤 Sending to Zoho: {"data":[{"Deal_Name":"Noah (Service: Booking)","Amount":5,"Stage":"Pending","Contact_Name":{"id":"6560565000001543027"},"Vendor_Contact":{"id":"6560565000001545001"},"Property_Name":"Testing","Check_in_Date":"2025-05-24","Check_out_Date":"2025-05-25","Booking_Status":"Pending","Booking_Date":"2025-05-07","Type":"Short_stay","Property_Type":"Short_stay","Closing_Date":"2025-06-06"}]}
+[07-May-2025 08:25:12 UTC] 📥 Zoho API Response (201): {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-05-07T03:25:16-05:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-05-07T03:25:16-05:00","id":"6560565000001721001","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[07-May-2025 08:25:12 UTC] ✅ Zoho Deal Created. Deal ID: 6560565000001721001 for booking ID: 112
+[07-May-2025 08:25:12 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=25&check_in=2025-05-24&check_out=2025-05-25&booking_id=112
+[09-May-2025 12:34:38 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[09-May-2025 12:34:38 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Superadmin (Service: Booking)",
+            "Amount": 15,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001542027"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001545001"
+            },
+            "Property_Name": "Testing",
+            "Check_in_Date": "2025-05-26",
+            "Check_out_Date": "2025-05-29",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-05-09",
+            "Type": "Short_stay",
+            "Property_Type": "Short_stay",
+            "Closing_Date": "2025-06-08"
+        }
+    ]
+}
+[09-May-2025 12:34:38 UTC] 📤 Sending to Zoho: {"data":[{"Deal_Name":"Superadmin (Service: Booking)","Amount":15,"Stage":"Pending","Contact_Name":{"id":"6560565000001542027"},"Vendor_Contact":{"id":"6560565000001545001"},"Property_Name":"Testing","Check_in_Date":"2025-05-26","Check_out_Date":"2025-05-29","Booking_Status":"Pending","Booking_Date":"2025-05-09","Type":"Short_stay","Property_Type":"Short_stay","Closing_Date":"2025-06-08"}]}
+[09-May-2025 12:34:38 UTC] 📥 Zoho API Response (0): 
+[09-May-2025 12:34:38 UTC] ❌ Zoho API Error: null
+[09-May-2025 12:34:38 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=25&check_in=2025-05-26&check_out=2025-05-29&booking_id=113
+[09-May-2025 12:39:44 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[09-May-2025 12:39:44 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 1400000,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001557001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001542027"
+            },
+            "Property_Name": "Shun Group Hotel",
+            "Check_in_Date": "2025-05-09",
+            "Check_out_Date": "2025-05-11",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-05-09",
+            "Type": "Hotel",
+            "Property_Type": "Hotel",
+            "Closing_Date": "2025-06-08"
+        }
+    ]
+}
+[09-May-2025 12:39:44 UTC] 📤 Sending to Zoho: {"data":[{"Deal_Name":"Noah (Service: Booking)","Amount":1400000,"Stage":"Pending","Contact_Name":{"id":"6560565000001557001"},"Vendor_Contact":{"id":"6560565000001542027"},"Property_Name":"Shun Group Hotel","Check_in_Date":"2025-05-09","Check_out_Date":"2025-05-11","Booking_Status":"Pending","Booking_Date":"2025-05-09","Type":"Hotel","Property_Type":"Hotel","Closing_Date":"2025-06-08"}]}
+[09-May-2025 12:39:45 UTC] 📥 Zoho API Response (0): 
+[09-May-2025 12:39:45 UTC] ❌ Zoho API Error: null
+[09-May-2025 12:39:45 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=49&check_in=2025-05-09&check_out=2025-05-11&booking_id=114
+[10-May-2025 05:49:44 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[10-May-2025 05:49:44 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 8910,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001543014"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001542027"
+            },
+            "Property_Name": "dfasdfgfhhagfg",
+            "Check_in_Date": "2025-05-10",
+            "Check_out_Date": "2025-05-12",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-05-10",
+            "Type": "Hotel",
+            "Property_Type": "Hotel",
+            "Closing_Date": "2025-06-09"
+        }
+    ]
+}
+[10-May-2025 05:49:44 UTC] 📤 Sending to Zoho: {"data":[{"Deal_Name":"Noah (Service: Booking)","Amount":8910,"Stage":"Pending","Contact_Name":{"id":"6560565000001543014"},"Vendor_Contact":{"id":"6560565000001542027"},"Property_Name":"dfasdfgfhhagfg","Check_in_Date":"2025-05-10","Check_out_Date":"2025-05-12","Booking_Status":"Pending","Booking_Date":"2025-05-10","Type":"Hotel","Property_Type":"Hotel","Closing_Date":"2025-06-09"}]}
+[10-May-2025 05:49:45 UTC] 📥 Zoho API Response (0): 
+[10-May-2025 05:49:45 UTC] ❌ Zoho API Error: null
+[10-May-2025 05:49:45 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=61&check_in=2025-05-10&check_out=2025-05-12&booking_id=115
+[10-May-2025 05:50:17 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[10-May-2025 05:50:17 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 8910,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001543014"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001542027"
+            },
+            "Property_Name": "dfasdfgfhhagfg",
+            "Check_in_Date": "2025-05-10",
+            "Check_out_Date": "2025-05-12",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-05-10",
+            "Type": "Hotel",
+            "Property_Type": "Hotel",
+            "Closing_Date": "2025-06-09"
+        }
+    ]
+}
+[10-May-2025 05:50:17 UTC] 📤 Sending to Zoho: {"data":[{"Deal_Name":"Noah (Service: Booking)","Amount":8910,"Stage":"Pending","Contact_Name":{"id":"6560565000001543014"},"Vendor_Contact":{"id":"6560565000001542027"},"Property_Name":"dfasdfgfhhagfg","Check_in_Date":"2025-05-10","Check_out_Date":"2025-05-12","Booking_Status":"Pending","Booking_Date":"2025-05-10","Type":"Hotel","Property_Type":"Hotel","Closing_Date":"2025-06-09"}]}
+[10-May-2025 05:50:18 UTC] 📥 Zoho API Response (0): 
+[10-May-2025 05:50:18 UTC] ❌ Zoho API Error: null
+[10-May-2025 05:50:18 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=61&check_in=2025-05-10&check_out=2025-05-12&booking_id=116
+[10-May-2025 06:25:05 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[10-May-2025 06:25:05 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 8910,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001543014"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001542027"
+            },
+            "Property_Name": "dfasdfgfhhagfg",
+            "Check_in_Date": "2025-05-10",
+            "Check_out_Date": "2025-05-12",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-05-10",
+            "Type": "Hotel",
+            "Property_Type": "Hotel",
+            "Closing_Date": "2025-06-09"
+        }
+    ]
+}
+[10-May-2025 06:25:05 UTC] 📤 Sending to Zoho: {"data":[{"Deal_Name":"Noah (Service: Booking)","Amount":8910,"Stage":"Pending","Contact_Name":{"id":"6560565000001543014"},"Vendor_Contact":{"id":"6560565000001542027"},"Property_Name":"dfasdfgfhhagfg","Check_in_Date":"2025-05-10","Check_out_Date":"2025-05-12","Booking_Status":"Pending","Booking_Date":"2025-05-10","Type":"Hotel","Property_Type":"Hotel","Closing_Date":"2025-06-09"}]}
+[10-May-2025 06:25:05 UTC] 📥 Zoho API Response (0): 
+[10-May-2025 06:25:05 UTC] ❌ Zoho API Error: null
+[10-May-2025 06:25:05 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=61&check_in=2025-05-10&check_out=2025-05-12&booking_id=117
+[15-May-2025 10:20:54 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[15-May-2025 10:20:54 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 22275,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001557001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001542027"
+            },
+            "Property_Name": "dfasdfgfhhagfg",
+            "Check_in_Date": "2025-05-15",
+            "Check_out_Date": "2025-05-20",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-05-15",
+            "Type": "Hotel",
+            "Property_Type": "Hotel",
+            "Closing_Date": "2025-06-14"
+        }
+    ]
+}
+[15-May-2025 10:20:54 UTC] 📤 Sending to Zoho: {"data":[{"Deal_Name":"Noah (Service: Booking)","Amount":22275,"Stage":"Pending","Contact_Name":{"id":"6560565000001557001"},"Vendor_Contact":{"id":"6560565000001542027"},"Property_Name":"dfasdfgfhhagfg","Check_in_Date":"2025-05-15","Check_out_Date":"2025-05-20","Booking_Status":"Pending","Booking_Date":"2025-05-15","Type":"Hotel","Property_Type":"Hotel","Closing_Date":"2025-06-14"}]}
+[15-May-2025 10:20:54 UTC] 📥 Zoho API Response (0): 
+[15-May-2025 10:20:54 UTC] ❌ Zoho API Error: null
+[15-May-2025 10:20:54 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=61&check_in=2025-05-15&check_out=2025-05-20&booking_id=118
+[19-May-2025 14:26:08 UTC] ❌ Zoho Lead Conversion Failed: {"data":[{"code":"DUPLICATE_DATA","details":{"api_name":"Email","module":"Contacts","id":"6560565000001726001"},"message":"duplicate data","status":"error"}]}
+[19-May-2025 14:26:08 UTC] ❌ Zoho contact ID missing after lead conversion. Booking ID: 119
+[19-May-2025 14:26:08 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=58&check_in=2025-05-19&check_out=2025-05-21&booking_id=119
+[19-May-2025 14:42:02 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[19-May-2025 14:42:02 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 8910,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001557001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001542027"
+            },
+            "Property_Name": "dfasdfgfhhagfg",
+            "Check_in_Date": "2025-05-19",
+            "Check_out_Date": "2025-05-21",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-05-19",
+            "Type": "Hotel",
+            "Property_Type": "Hotel",
+            "Closing_Date": "2025-06-18"
+        }
+    ]
+}
+[19-May-2025 14:42:02 UTC] 📤 Sending to Zoho: {"data":[{"Deal_Name":"Noah (Service: Booking)","Amount":8910,"Stage":"Pending","Contact_Name":{"id":"6560565000001557001"},"Vendor_Contact":{"id":"6560565000001542027"},"Property_Name":"dfasdfgfhhagfg","Check_in_Date":"2025-05-19","Check_out_Date":"2025-05-21","Booking_Status":"Pending","Booking_Date":"2025-05-19","Type":"Hotel","Property_Type":"Hotel","Closing_Date":"2025-06-18"}]}
+[19-May-2025 14:42:02 UTC] 📥 Zoho API Response (201): {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-05-19T15:42:06+01:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-05-19T15:42:06+01:00","id":"6560565000002037001","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[19-May-2025 14:42:02 UTC] ✅ Zoho Deal Created. Deal ID: 6560565000002037001 for booking ID: 120
+[19-May-2025 14:42:02 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=61&check_in=2025-05-19&check_out=2025-05-21&booking_id=120
+[29-May-2025 13:56:15 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[29-May-2025 13:56:15 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 4455,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001557001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001542027"
+            },
+            "Property_Name": "dfasdfgfhhagfg",
+            "Check_in_Date": "2025-05-29",
+            "Check_out_Date": "2025-05-30",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-05-29",
+            "Type": "Hotel",
+            "Property_Type": "Hotel",
+            "Closing_Date": "2025-06-28"
+        }
+    ]
+}
+[29-May-2025 13:56:15 UTC] 📤 Sending to Zoho: {"data":[{"Deal_Name":"Noah (Service: Booking)","Amount":4455,"Stage":"Pending","Contact_Name":{"id":"6560565000001557001"},"Vendor_Contact":{"id":"6560565000001542027"},"Property_Name":"dfasdfgfhhagfg","Check_in_Date":"2025-05-29","Check_out_Date":"2025-05-30","Booking_Status":"Pending","Booking_Date":"2025-05-29","Type":"Hotel","Property_Type":"Hotel","Closing_Date":"2025-06-28"}]}
+[29-May-2025 13:56:16 UTC] 📥 Zoho API Response (201): {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-05-29T14:56:16+01:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-05-29T14:56:16+01:00","id":"6560565000002114002","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[29-May-2025 13:56:16 UTC] ✅ Zoho Deal Created. Deal ID: 6560565000002114002 for booking ID: 121
+[29-May-2025 13:56:16 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=61&check_in=2025-05-29&check_out=2025-05-30&booking_id=121
+[29-May-2025 14:07:51 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[29-May-2025 14:07:51 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 4455,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001557001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001542027"
+            },
+            "Property_Name": "dfasdfgfhhagfg",
+            "Check_in_Date": "2025-05-29",
+            "Check_out_Date": "2025-05-30",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-05-29",
+            "Type": "Hotel",
+            "Property_Type": "Hotel",
+            "Closing_Date": "2025-06-28"
+        }
+    ]
+}
+[29-May-2025 14:07:51 UTC] 📤 Sending to Zoho: {"data":[{"Deal_Name":"Noah (Service: Booking)","Amount":4455,"Stage":"Pending","Contact_Name":{"id":"6560565000001557001"},"Vendor_Contact":{"id":"6560565000001542027"},"Property_Name":"dfasdfgfhhagfg","Check_in_Date":"2025-05-29","Check_out_Date":"2025-05-30","Booking_Status":"Pending","Booking_Date":"2025-05-29","Type":"Hotel","Property_Type":"Hotel","Closing_Date":"2025-06-28"}]}
+[29-May-2025 14:07:51 UTC] 📥 Zoho API Response (201): {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-05-29T15:07:51+01:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-05-29T15:07:51+01:00","id":"6560565000002120001","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[29-May-2025 14:07:51 UTC] ✅ Zoho Deal Created. Deal ID: 6560565000002120001 for booking ID: 122
+[29-May-2025 14:07:51 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=61&check_in=2025-05-29&check_out=2025-05-30&booking_id=122
+[29-May-2025 14:12:29 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[29-May-2025 14:12:29 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 4455,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001542053"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001542027"
+            },
+            "Property_Name": "dfasdfgfhhagfg",
+            "Check_in_Date": "2025-05-31",
+            "Check_out_Date": "2025-06-01",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-05-29",
+            "Type": "Hotel",
+            "Property_Type": "Hotel",
+            "Closing_Date": "2025-06-28"
+        }
+    ]
+}
+[29-May-2025 14:12:29 UTC] 📤 Sending to Zoho: {"data":[{"Deal_Name":"Noah (Service: Booking)","Amount":4455,"Stage":"Pending","Contact_Name":{"id":"6560565000001542053"},"Vendor_Contact":{"id":"6560565000001542027"},"Property_Name":"dfasdfgfhhagfg","Check_in_Date":"2025-05-31","Check_out_Date":"2025-06-01","Booking_Status":"Pending","Booking_Date":"2025-05-29","Type":"Hotel","Property_Type":"Hotel","Closing_Date":"2025-06-28"}]}
+[29-May-2025 14:12:30 UTC] 📥 Zoho API Response (201): {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-05-29T15:12:29+01:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-05-29T15:12:29+01:00","id":"6560565000002123030","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[29-May-2025 14:12:30 UTC] ✅ Zoho Deal Created. Deal ID: 6560565000002123030 for booking ID: 123
+[29-May-2025 14:12:30 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=61&check_in=2025-05-31&check_out=2025-06-01&booking_id=123
+[29-May-2025 14:16:14 UTC] ⚠️ Zoho Contact Already Exists. Using Existing ID: 6560565000001726001
+[29-May-2025 14:16:14 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[29-May-2025 14:16:14 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 600000,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001542053"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001726001"
+            },
+            "Property_Name": "rrrrrrrr",
+            "Check_in_Date": "2025-05-30",
+            "Check_out_Date": "2025-06-01",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-05-29",
+            "Type": "Hotel",
+            "Property_Type": "Hotel",
+            "Closing_Date": "2025-06-28"
+        }
+    ]
+}
+[29-May-2025 14:16:14 UTC] 📤 Sending to Zoho: {"data":[{"Deal_Name":"Noah (Service: Booking)","Amount":600000,"Stage":"Pending","Contact_Name":{"id":"6560565000001542053"},"Vendor_Contact":{"id":"6560565000001726001"},"Property_Name":"rrrrrrrr","Check_in_Date":"2025-05-30","Check_out_Date":"2025-06-01","Booking_Status":"Pending","Booking_Date":"2025-05-29","Type":"Hotel","Property_Type":"Hotel","Closing_Date":"2025-06-28"}]}
+[29-May-2025 14:16:14 UTC] 📥 Zoho API Response (201): {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-05-29T15:16:14+01:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-05-29T15:16:14+01:00","id":"6560565000002135001","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[29-May-2025 14:16:14 UTC] ✅ Zoho Deal Created. Deal ID: 6560565000002135001 for booking ID: 124
+[29-May-2025 14:16:14 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=58&check_in=2025-05-30&check_out=2025-06-01&booking_id=124
+[29-May-2025 14:20:27 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[29-May-2025 14:20:27 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 8910,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001542053"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001542027"
+            },
+            "Property_Name": "dfasdfgfhhagfg",
+            "Check_in_Date": "2025-06-02",
+            "Check_out_Date": "2025-06-04",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-05-29",
+            "Type": "Hotel",
+            "Property_Type": "Hotel",
+            "Closing_Date": "2025-06-28"
+        }
+    ]
+}
+[29-May-2025 14:20:27 UTC] 📤 Sending to Zoho: {"data":[{"Deal_Name":"Noah (Service: Booking)","Amount":8910,"Stage":"Pending","Contact_Name":{"id":"6560565000001542053"},"Vendor_Contact":{"id":"6560565000001542027"},"Property_Name":"dfasdfgfhhagfg","Check_in_Date":"2025-06-02","Check_out_Date":"2025-06-04","Booking_Status":"Pending","Booking_Date":"2025-05-29","Type":"Hotel","Property_Type":"Hotel","Closing_Date":"2025-06-28"}]}
+[29-May-2025 14:20:28 UTC] 📥 Zoho API Response (201): {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-05-29T15:20:27+01:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-05-29T15:20:27+01:00","id":"6560565000002143001","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[29-May-2025 14:20:28 UTC] ✅ Zoho Deal Created. Deal ID: 6560565000002143001 for booking ID: 125
+[29-May-2025 14:20:28 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=61&check_in=2025-06-02&check_out=2025-06-04&booking_id=125
+[29-May-2025 14:41:44 UTC] ⚠️ Zoho Contact Already Exists. Using Existing ID: 6560565000001726001
+[29-May-2025 14:41:44 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[29-May-2025 14:41:44 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 2000,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001542053"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001726001"
+            },
+            "Property_Name": "rtrtteytytry",
+            "Check_in_Date": "2025-05-30",
+            "Check_out_Date": "2025-05-31",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-05-29",
+            "Type": "Apartment",
+            "Property_Type": "Apartment",
+            "Closing_Date": "2025-06-28"
+        }
+    ]
+}
+[29-May-2025 14:41:44 UTC] 📤 Sending to Zoho: {"data":[{"Deal_Name":"Noah (Service: Booking)","Amount":2000,"Stage":"Pending","Contact_Name":{"id":"6560565000001542053"},"Vendor_Contact":{"id":"6560565000001726001"},"Property_Name":"rtrtteytytry","Check_in_Date":"2025-05-30","Check_out_Date":"2025-05-31","Booking_Status":"Pending","Booking_Date":"2025-05-29","Type":"Apartment","Property_Type":"Apartment","Closing_Date":"2025-06-28"}]}
+[29-May-2025 14:41:45 UTC] 📥 Zoho API Response (201): {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-05-29T15:41:45+01:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-05-29T15:41:45+01:00","id":"6560565000002148001","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[29-May-2025 14:41:45 UTC] ✅ Zoho Deal Created. Deal ID: 6560565000002148001 for booking ID: 126
+[29-May-2025 14:41:45 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=55&check_in=2025-05-30&check_out=2025-05-31&booking_id=126
+[30-May-2025 05:33:45 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-May-2025 05:33:45 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-May-2025 05:33:51 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-May-2025 05:33:51 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-May-2025 05:33:57 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-May-2025 05:33:57 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-May-2025 05:44:37 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-May-2025 05:44:37 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-May-2025 05:46:15 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-May-2025 05:46:15 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-May-2025 05:56:02 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-May-2025 05:56:02 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-May-2025 06:00:49 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-May-2025 06:00:49 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-May-2025 06:05:59 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-May-2025 06:05:59 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-May-2025 06:10:54 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-May-2025 06:10:54 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-May-2025 06:11:04 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-May-2025 06:11:04 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-May-2025 06:11:44 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-May-2025 06:11:44 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[31-May-2025 12:38:50 UTC] ⚠️ Zoho Contact Already Exists. Using Existing ID: 6560565000001726001
+[31-May-2025 12:38:50 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[31-May-2025 12:38:50 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "divyanka (Service: Booking)",
+            "Amount": 2000,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000002196001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001726001"
+            },
+            "Property_Name": "rtrtteytytry",
+            "Check_in_Date": "2025-06-05",
+            "Check_out_Date": "2025-06-06",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-05-31",
+            "Type": "Apartment",
+            "Property_Type": "Apartment",
+            "Closing_Date": "2025-06-30"
+        }
+    ]
+}
+[31-May-2025 12:38:50 UTC] 📤 Sending to Zoho: {"data":[{"Deal_Name":"divyanka (Service: Booking)","Amount":2000,"Stage":"Pending","Contact_Name":{"id":"6560565000002196001"},"Vendor_Contact":{"id":"6560565000001726001"},"Property_Name":"rtrtteytytry","Check_in_Date":"2025-06-05","Check_out_Date":"2025-06-06","Booking_Status":"Pending","Booking_Date":"2025-05-31","Type":"Apartment","Property_Type":"Apartment","Closing_Date":"2025-06-30"}]}
+[31-May-2025 12:38:51 UTC] 📥 Zoho API Response (201): {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-05-31T13:38:51+01:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-05-31T13:38:51+01:00","id":"6560565000002228001","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[31-May-2025 12:38:51 UTC] ✅ Zoho Deal Created. Deal ID: 6560565000002228001 for booking ID: 137
+[31-May-2025 12:38:51 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=55&check_in=2025-06-05&check_out=2025-06-06&booking_id=137
+[31-May-2025 23:52:11 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[31-May-2025 23:52:11 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[01-Jun-2025 02:44:19 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[01-Jun-2025 02:44:19 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[02-Jun-2025 00:47:34 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[02-Jun-2025 00:47:34 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[02-Jun-2025 09:18:45 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[02-Jun-2025 09:18:45 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[03-Jun-2025 02:11:53 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[03-Jun-2025 02:11:53 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[03-Jun-2025 08:04:16 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[03-Jun-2025 08:04:16 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[03-Jun-2025 22:51:18 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[03-Jun-2025 22:51:18 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[03-Jun-2025 22:51:20 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[03-Jun-2025 22:51:20 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[03-Jun-2025 22:51:21 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[03-Jun-2025 22:51:21 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[03-Jun-2025 22:51:21 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[03-Jun-2025 22:51:21 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[03-Jun-2025 22:51:23 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[03-Jun-2025 22:51:23 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[03-Jun-2025 22:51:25 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[03-Jun-2025 22:51:25 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[04-Jun-2025 02:40:34 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[04-Jun-2025 02:40:34 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[04-Jun-2025 05:41:35 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[04-Jun-2025 05:41:35 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[04-Jun-2025 06:26:31 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[04-Jun-2025 06:26:31 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[04-Jun-2025 07:49:36 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[04-Jun-2025 07:49:36 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[04-Jun-2025 08:29:35 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[04-Jun-2025 08:29:35 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[04-Jun-2025 10:19:39 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[04-Jun-2025 10:19:39 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[04-Jun-2025 12:14:10 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[04-Jun-2025 12:14:10 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[04-Jun-2025 14:07:45 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[04-Jun-2025 14:07:45 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[04-Jun-2025 17:24:53 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[04-Jun-2025 17:24:53 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[05-Jun-2025 14:23:40 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[05-Jun-2025 14:23:40 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[05-Jun-2025 16:26:20 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[05-Jun-2025 16:26:20 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[05-Jun-2025 20:02:45 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[05-Jun-2025 20:02:45 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[06-Jun-2025 01:25:29 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[06-Jun-2025 01:25:29 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[06-Jun-2025 13:06:48 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[06-Jun-2025 13:06:48 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[06-Jun-2025 22:16:37 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[06-Jun-2025 22:16:37 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[07-Jun-2025 01:37:10 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[07-Jun-2025 01:37:10 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[07-Jun-2025 02:45:12 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[07-Jun-2025 02:45:12 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[07-Jun-2025 03:44:40 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[07-Jun-2025 03:44:40 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[07-Jun-2025 05:04:40 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[07-Jun-2025 05:04:40 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[07-Jun-2025 14:58:46 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[07-Jun-2025 14:58:46 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[07-Jun-2025 14:58:54 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[07-Jun-2025 14:58:54 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[07-Jun-2025 14:59:00 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[07-Jun-2025 14:59:00 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[07-Jun-2025 14:59:07 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[07-Jun-2025 14:59:07 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[07-Jun-2025 15:09:48 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[07-Jun-2025 15:09:48 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[07-Jun-2025 15:20:11 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[07-Jun-2025 15:20:11 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[07-Jun-2025 15:29:48 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[07-Jun-2025 15:29:48 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[07-Jun-2025 15:34:13 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[07-Jun-2025 15:34:13 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[07-Jun-2025 15:34:26 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[07-Jun-2025 15:34:26 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[07-Jun-2025 15:35:08 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[07-Jun-2025 15:35:08 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[07-Jun-2025 20:22:39 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[07-Jun-2025 20:22:39 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[08-Jun-2025 06:20:48 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[08-Jun-2025 06:20:48 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[08-Jun-2025 13:28:33 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[08-Jun-2025 13:28:33 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[08-Jun-2025 14:36:23 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[08-Jun-2025 14:36:23 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[09-Jun-2025 06:14:28 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[09-Jun-2025 06:14:28 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[09-Jun-2025 14:39:53 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[09-Jun-2025 14:39:53 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[11-Jun-2025 14:52:27 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[11-Jun-2025 14:52:27 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[11-Jun-2025 14:52:28 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[11-Jun-2025 14:52:28 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[13-Jun-2025 02:39:35 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[13-Jun-2025 02:39:35 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[13-Jun-2025 14:51:36 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[13-Jun-2025 14:51:36 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[14-Jun-2025 14:50:08 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[14-Jun-2025 14:50:08 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[14-Jun-2025 14:50:09 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[14-Jun-2025 14:50:09 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[14-Jun-2025 14:50:10 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[14-Jun-2025 14:50:10 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[15-Jun-2025 14:50:59 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[15-Jun-2025 14:50:59 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[16-Jun-2025 01:22:53 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[16-Jun-2025 01:22:53 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[16-Jun-2025 10:16:13 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[16-Jun-2025 10:16:13 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[18-Jun-2025 12:23:00 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[18-Jun-2025 12:23:00 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[20-Jun-2025 01:14:22 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[20-Jun-2025 01:14:22 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[23-Jun-2025 14:53:14 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[23-Jun-2025 14:53:14 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[24-Jun-2025 00:20:45 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[24-Jun-2025 00:20:45 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[24-Jun-2025 14:52:36 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[24-Jun-2025 14:52:36 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[24-Jun-2025 14:52:37 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[24-Jun-2025 14:52:37 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[24-Jun-2025 14:52:37 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[24-Jun-2025 14:52:37 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[24-Jun-2025 14:52:38 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[24-Jun-2025 14:52:38 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[24-Jun-2025 19:14:43 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[24-Jun-2025 19:14:43 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[24-Jun-2025 19:14:50 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[24-Jun-2025 19:14:50 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Jun-2025 14:36:30 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Jun-2025 14:36:30 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Jun-2025 21:12:33 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Jun-2025 21:12:33 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Jun-2025 21:44:32 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Jun-2025 21:44:32 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Jun-2025 21:44:41 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Jun-2025 21:44:41 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Jun-2025 21:44:51 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Jun-2025 21:44:51 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Jun-2025 21:45:01 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Jun-2025 21:45:01 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Jun-2025 21:45:13 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Jun-2025 21:45:13 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Jun-2025 22:49:16 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Jun-2025 22:49:16 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Jun-2025 23:21:59 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Jun-2025 23:21:59 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-Jun-2025 02:50:45 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-Jun-2025 02:50:45 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-Jun-2025 14:34:34 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-Jun-2025 14:34:34 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[02-Jul-2025 04:38:55 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[02-Jul-2025 04:38:55 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[03-Jul-2025 00:00:18 UTC] PHP Warning:  include(includes/zoho_functions.php): Failed to open stream: No such file or directory in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 8
+[03-Jul-2025 00:00:18 UTC] PHP Warning:  include(): Failed opening 'includes/zoho_functions.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 8
+[03-Jul-2025 00:00:18 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[03-Jul-2025 00:00:18 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[03-Jul-2025 02:20:44 UTC] PHP Warning:  include(includes/zoho_functions.php): Failed to open stream: No such file or directory in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 8
+[03-Jul-2025 02:20:44 UTC] PHP Warning:  include(): Failed opening 'includes/zoho_functions.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 8
+[03-Jul-2025 02:20:44 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[03-Jul-2025 02:20:44 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[04-Jul-2025 17:31:26 UTC] PHP Warning:  include(includes/zoho_functions.php): Failed to open stream: No such file or directory in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 8
+[04-Jul-2025 17:31:26 UTC] PHP Warning:  include(): Failed opening 'includes/zoho_functions.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 8
+[04-Jul-2025 17:31:26 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[04-Jul-2025 17:31:26 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[04-Jul-2025 17:53:44 UTC] PHP Warning:  include(includes/zoho_functions.php): Failed to open stream: No such file or directory in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 8
+[04-Jul-2025 17:53:44 UTC] PHP Warning:  include(): Failed opening 'includes/zoho_functions.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 8
+[04-Jul-2025 17:53:44 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[04-Jul-2025 17:53:44 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[04-Jul-2025 17:54:03 UTC] PHP Warning:  include(includes/zoho_functions.php): Failed to open stream: No such file or directory in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 8
+[04-Jul-2025 17:54:03 UTC] PHP Warning:  include(): Failed opening 'includes/zoho_functions.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 8
+[04-Jul-2025 17:54:03 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[04-Jul-2025 17:54:03 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[07-Jul-2025 17:34:26 UTC] PHP Warning:  include(includes/zoho_functions.php): Failed to open stream: No such file or directory in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 8
+[07-Jul-2025 17:34:26 UTC] PHP Warning:  include(): Failed opening 'includes/zoho_functions.php' for inclusion (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 8
+[07-Jul-2025 17:34:26 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[07-Jul-2025 17:34:26 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[10-Jul-2025 01:57:48 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[10-Jul-2025 01:57:48 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[10-Jul-2025 01:57:50 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[10-Jul-2025 01:57:50 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[10-Jul-2025 01:57:52 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[10-Jul-2025 01:57:52 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[10-Jul-2025 01:57:54 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[10-Jul-2025 01:57:54 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[10-Jul-2025 14:21:28 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[10-Jul-2025 14:21:28 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[10-Jul-2025 14:21:30 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[10-Jul-2025 14:21:30 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[11-Jul-2025 13:37:09 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[11-Jul-2025 13:37:09 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Jaunita (Service: Booking)",
+            "Amount": 30000,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000002599001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001543014"
+            },
+            "Property_Name": "Luxury apartment",
+            "Check_in_Date": "2025-07-12",
+            "Check_out_Date": "2025-07-13",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-07-11",
+            "Type": "Apartment",
+            "Property_Type": "Apartment",
+            "Closing_Date": "2025-08-10"
+        }
+    ]
+}
+[11-Jul-2025 13:37:09 UTC] 📤 Sending to Zoho: {"data":[{"Deal_Name":"Jaunita (Service: Booking)","Amount":30000,"Stage":"Pending","Contact_Name":{"id":"6560565000002599001"},"Vendor_Contact":{"id":"6560565000001543014"},"Property_Name":"Luxury apartment","Check_in_Date":"2025-07-12","Check_out_Date":"2025-07-13","Booking_Status":"Pending","Booking_Date":"2025-07-11","Type":"Apartment","Property_Type":"Apartment","Closing_Date":"2025-08-10"}]}
+[11-Jul-2025 13:37:09 UTC] 📥 Zoho API Response (201): {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-07-11T04:37:09-09:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-07-11T04:37:09-09:00","id":"6560565000002600001","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[11-Jul-2025 13:37:09 UTC] ✅ Zoho Deal Created. Deal ID: 6560565000002600001 for booking ID: 138
+[11-Jul-2025 13:37:09 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=64&check_in=2025-07-12&check_out=2025-07-13&booking_id=138
+[15-Jul-2025 15:24:48 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[15-Jul-2025 15:24:48 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[15-Jul-2025 20:07:49 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[15-Jul-2025 20:07:49 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[18-Jul-2025 10:00:29 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[18-Jul-2025 10:00:29 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 160000,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001726001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001542027"
+            },
+            "Property_Name": "Luxury home",
+            "Check_in_Date": "2025-07-18",
+            "Check_out_Date": "2025-07-22",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-07-18",
+            "Type": "Apartment",
+            "Property_Type": "Apartment",
+            "Closing_Date": "2025-08-17"
+        }
+    ]
+}
+[18-Jul-2025 10:00:29 UTC] 📤 Sending to Zoho: {"data":[{"Deal_Name":"Noah (Service: Booking)","Amount":160000,"Stage":"Pending","Contact_Name":{"id":"6560565000001726001"},"Vendor_Contact":{"id":"6560565000001542027"},"Property_Name":"Luxury home","Check_in_Date":"2025-07-18","Check_out_Date":"2025-07-22","Booking_Status":"Pending","Booking_Date":"2025-07-18","Type":"Apartment","Property_Type":"Apartment","Closing_Date":"2025-08-17"}]}
+[18-Jul-2025 10:00:30 UTC] 📥 Zoho API Response (201): {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-07-18T01:00:29-09:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-07-18T01:00:29-09:00","id":"6560565000002702002","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[18-Jul-2025 10:00:30 UTC] ✅ Zoho Deal Created. Deal ID: 6560565000002702002 for booking ID: 139
+[18-Jul-2025 10:00:30 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=74&check_in=2025-07-18&check_out=2025-07-22&booking_id=139
+[23-Jul-2025 17:24:34 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[23-Jul-2025 17:24:34 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[24-Jul-2025 02:11:45 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[24-Jul-2025 02:11:45 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[24-Jul-2025 02:11:46 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[24-Jul-2025 02:11:46 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Jul-2025 03:21:41 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Jul-2025 03:21:41 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Jul-2025 08:17:25 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Jul-2025 08:17:25 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Jul-2025 09:20:25 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Jul-2025 09:20:25 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Jul-2025 10:20:25 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Jul-2025 10:20:25 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Jul-2025 10:35:25 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Jul-2025 10:35:25 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Jul-2025 10:48:02 UTC] ❌ Zoho Lead Conversion Failed: {"data":[{"code":"ID_ALREADY_CONVERTED","details":[],"message":"id already converted","status":"error"}]}
+[25-Jul-2025 10:48:02 UTC] ❌ Zoho contact ID missing after lead conversion. Booking ID: 140
+[25-Jul-2025 10:48:27 UTC] ❌ Zoho Lead Conversion Failed: {"data":[{"code":"ID_ALREADY_CONVERTED","details":[],"message":"id already converted","status":"error"}]}
+[25-Jul-2025 10:48:27 UTC] ❌ Zoho contact ID missing after lead conversion. Booking ID: 141
+[25-Jul-2025 12:24:58 UTC] ❌ Zoho Lead Conversion Failed: {"data":[{"code":"ID_ALREADY_CONVERTED","details":[],"message":"id already converted","status":"error"}]}
+[25-Jul-2025 12:24:58 UTC] ❌ Zoho contact ID missing after lead conversion. Booking ID: 142
+[25-Jul-2025 16:08:31 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Jul-2025 16:08:31 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Jul-2025 22:29:16 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Jul-2025 22:29:16 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Jul-2025 22:29:37 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Jul-2025 22:29:37 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Jul-2025 22:30:22 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Jul-2025 22:30:22 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Jul-2025 22:33:40 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Jul-2025 22:33:40 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Jul-2025 22:34:08 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Jul-2025 22:34:08 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Jul-2025 22:34:23 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Jul-2025 22:34:23 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Jul-2025 22:45:53 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Jul-2025 22:45:53 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Jul-2025 22:46:57 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Jul-2025 22:46:57 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Jul-2025 22:48:00 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Jul-2025 22:48:00 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Jul-2025 22:49:04 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Jul-2025 22:49:04 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Jul-2025 22:54:23 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Jul-2025 22:54:23 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Jul-2025 22:56:25 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Jul-2025 22:56:25 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Jul-2025 23:01:43 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Jul-2025 23:01:43 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[26-Jul-2025 06:22:36 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[26-Jul-2025 06:22:36 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[27-Jul-2025 15:17:54 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[27-Jul-2025 15:17:54 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[27-Jul-2025 19:40:57 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[27-Jul-2025 19:40:57 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[27-Jul-2025 21:41:57 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[27-Jul-2025 21:41:57 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[27-Jul-2025 22:39:29 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[27-Jul-2025 22:39:29 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Jul-2025 00:24:57 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Jul-2025 00:24:57 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Jul-2025 01:31:21 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Jul-2025 01:31:21 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Jul-2025 01:56:33 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Jul-2025 01:56:33 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Jul-2025 02:10:22 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Jul-2025 02:10:22 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Jul-2025 03:59:23 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Jul-2025 03:59:23 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Jul-2025 03:59:24 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Jul-2025 03:59:24 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Jul-2025 05:01:28 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Jul-2025 05:01:28 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Jul-2025 06:18:37 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Jul-2025 06:18:37 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Jul-2025 06:59:23 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Jul-2025 06:59:23 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Jul-2025 07:05:13 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Jul-2025 07:05:13 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Jul-2025 07:41:29 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Jul-2025 07:41:29 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Jul-2025 07:44:24 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Jul-2025 07:44:24 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Jul-2025 08:42:44 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Jul-2025 08:42:44 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Jul-2025 09:14:24 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Jul-2025 09:14:24 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Jul-2025 09:18:59 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Jul-2025 09:18:59 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Jul-2025 09:31:29 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Jul-2025 09:31:29 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Jul-2025 09:51:29 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Jul-2025 09:51:29 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Jul-2025 09:57:44 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Jul-2025 09:57:44 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Jul-2025 09:59:24 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Jul-2025 09:59:24 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Jul-2025 09:59:25 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Jul-2025 09:59:25 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Jul-2025 11:29:24 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Jul-2025 11:29:24 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Jul-2025 12:27:57 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Jul-2025 12:27:57 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Jul-2025 14:28:06 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Jul-2025 14:28:06 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Jul-2025 15:47:08 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Jul-2025 15:47:08 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[29-Jul-2025 14:36:29 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[29-Jul-2025 14:36:29 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-Jul-2025 23:51:30 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-Jul-2025 23:51:30 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-Jul-2025 23:51:31 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-Jul-2025 23:51:31 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-Jul-2025 23:51:31 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-Jul-2025 23:51:31 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[31-Jul-2025 04:47:52 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[31-Jul-2025 04:47:52 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[31-Jul-2025 07:20:28 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[31-Jul-2025 07:20:28 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[01-Aug-2025 02:12:23 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[01-Aug-2025 02:12:23 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[01-Aug-2025 02:16:23 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[01-Aug-2025 02:16:23 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[01-Aug-2025 02:51:39 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[01-Aug-2025 02:51:39 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[01-Aug-2025 03:07:11 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[01-Aug-2025 03:07:11 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[01-Aug-2025 03:11:16 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[01-Aug-2025 03:11:16 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[03-Aug-2025 19:17:22 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[03-Aug-2025 19:17:22 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[04-Aug-2025 10:42:19 UTC] ❌ Zoho Lead Conversion Failed: {"data":[{"code":"ID_ALREADY_CONVERTED","details":[],"message":"id already converted","status":"error"}]}
+[04-Aug-2025 10:42:19 UTC] ❌ Zoho contact ID missing after lead conversion. Booking ID: 143
+[05-Aug-2025 05:13:53 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[05-Aug-2025 05:13:53 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[06-Aug-2025 00:14:01 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[06-Aug-2025 00:14:01 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[06-Aug-2025 10:40:45 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[06-Aug-2025 10:40:45 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[06-Aug-2025 12:45:43 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[06-Aug-2025 12:45:43 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Kabiru (Service: Booking)",
+            "Amount": 100000,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000002956001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001542027"
+            },
+            "Property_Name": "Cozy 2 Bedroom apartment in Abeokuta",
+            "Check_in_Date": "2025-08-07",
+            "Check_out_Date": "2025-08-09",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-08-06",
+            "Type": "Short_stay",
+            "Property_Type": "Short_stay",
+            "Closing_Date": "2025-09-05"
+        }
+    ]
+}
+[06-Aug-2025 12:45:43 UTC] 📤 Sending to Zoho: {"data":[{"Deal_Name":"Kabiru (Service: Booking)","Amount":100000,"Stage":"Pending","Contact_Name":{"id":"6560565000002956001"},"Vendor_Contact":{"id":"6560565000001542027"},"Property_Name":"Cozy 2 Bedroom apartment in Abeokuta","Check_in_Date":"2025-08-07","Check_out_Date":"2025-08-09","Booking_Status":"Pending","Booking_Date":"2025-08-06","Type":"Short_stay","Property_Type":"Short_stay","Closing_Date":"2025-09-05"}]}
+[06-Aug-2025 12:45:44 UTC] 📥 Zoho API Response (201): {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-08-06T03:45:44-09:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-08-06T03:45:44-09:00","id":"6560565000002957001","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[06-Aug-2025 12:45:44 UTC] ✅ Zoho Deal Created. Deal ID: 6560565000002957001 for booking ID: 144
+[06-Aug-2025 12:45:44 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=90&check_in=2025-08-07&check_out=2025-08-09&booking_id=144
+[06-Aug-2025 12:54:28 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[06-Aug-2025 12:54:28 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Kabiru (Service: Booking)",
+            "Amount": 100000,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000002956001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001542027"
+            },
+            "Property_Name": "Cozy 2 Bedroom apartment in Abeokuta",
+            "Check_in_Date": "2025-08-07",
+            "Check_out_Date": "2025-08-09",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-08-06",
+            "Type": "Short_stay",
+            "Property_Type": "Short_stay",
+            "Closing_Date": "2025-09-05"
+        }
+    ]
+}
+[06-Aug-2025 12:54:28 UTC] 📤 Sending to Zoho: {"data":[{"Deal_Name":"Kabiru (Service: Booking)","Amount":100000,"Stage":"Pending","Contact_Name":{"id":"6560565000002956001"},"Vendor_Contact":{"id":"6560565000001542027"},"Property_Name":"Cozy 2 Bedroom apartment in Abeokuta","Check_in_Date":"2025-08-07","Check_out_Date":"2025-08-09","Booking_Status":"Pending","Booking_Date":"2025-08-06","Type":"Short_stay","Property_Type":"Short_stay","Closing_Date":"2025-09-05"}]}
+[06-Aug-2025 12:54:29 UTC] 📥 Zoho API Response (201): {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-08-06T03:54:29-09:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-08-06T03:54:29-09:00","id":"6560565000002960001","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[06-Aug-2025 12:54:29 UTC] ✅ Zoho Deal Created. Deal ID: 6560565000002960001 for booking ID: 145
+[06-Aug-2025 12:54:29 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=90&check_in=2025-08-07&check_out=2025-08-09&booking_id=145
+[07-Aug-2025 10:17:38 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[07-Aug-2025 10:17:38 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Noah (Service: Booking)",
+            "Amount": 150000,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000002812001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001542027"
+            },
+            "Property_Name": "Pishonserv Shortlest Apartment- Ikorodu",
+            "Check_in_Date": "2025-08-07",
+            "Check_out_Date": "2025-08-10",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-08-07",
+            "Type": "Short_stay",
+            "Property_Type": "Short_stay",
+            "Closing_Date": "2025-09-06"
+        }
+    ]
+}
+[07-Aug-2025 10:17:38 UTC] 📤 Sending to Zoho: {"data":[{"Deal_Name":"Noah (Service: Booking)","Amount":150000,"Stage":"Pending","Contact_Name":{"id":"6560565000002812001"},"Vendor_Contact":{"id":"6560565000001542027"},"Property_Name":"Pishonserv Shortlest Apartment- Ikorodu","Check_in_Date":"2025-08-07","Check_out_Date":"2025-08-10","Booking_Status":"Pending","Booking_Date":"2025-08-07","Type":"Short_stay","Property_Type":"Short_stay","Closing_Date":"2025-09-06"}]}
+[07-Aug-2025 10:17:40 UTC] 📥 Zoho API Response (201): {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-08-07T01:17:39-09:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-08-07T01:17:39-09:00","id":"6560565000002971002","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[07-Aug-2025 10:17:40 UTC] ✅ Zoho Deal Created. Deal ID: 6560565000002971002 for booking ID: 146
+[07-Aug-2025 10:17:40 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=89&check_in=2025-08-07&check_out=2025-08-10&booking_id=146
+[08-Aug-2025 02:15:39 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[08-Aug-2025 02:15:39 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[08-Aug-2025 10:55:24 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[08-Aug-2025 10:55:24 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[08-Aug-2025 11:53:39 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[08-Aug-2025 11:53:39 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[08-Aug-2025 11:53:41 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[08-Aug-2025 11:53:41 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[08-Aug-2025 11:53:41 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[08-Aug-2025 11:53:41 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[09-Aug-2025 01:10:45 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[09-Aug-2025 01:10:45 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[09-Aug-2025 11:48:38 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[09-Aug-2025 11:48:38 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[09-Aug-2025 11:48:38 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[09-Aug-2025 11:48:38 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[09-Aug-2025 11:48:39 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[09-Aug-2025 11:48:39 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[12-Aug-2025 01:18:58 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[12-Aug-2025 01:18:58 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[13-Aug-2025 10:48:26 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[13-Aug-2025 10:48:26 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[13-Aug-2025 17:09:54 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[13-Aug-2025 17:09:54 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[17-Aug-2025 22:46:20 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[17-Aug-2025 22:46:20 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[18-Aug-2025 16:57:20 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[18-Aug-2025 16:57:20 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[18-Aug-2025 16:57:30 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[18-Aug-2025 16:57:30 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[22-Aug-2025 08:20:04 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[22-Aug-2025 08:20:04 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Udoma (Service: Booking)",
+            "Amount": 50,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000002735018"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001542027"
+            },
+            "Property_Name": "Pishonserv Shortlest Apartment- Ikorodu",
+            "Check_in_Date": "2025-08-22",
+            "Check_out_Date": "2025-08-23",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-08-22",
+            "Type": "House",
+            "Property_Type": "House",
+            "Closing_Date": "2025-09-21"
+        }
+    ]
+}
+[22-Aug-2025 08:20:04 UTC] 📤 Sending to Zoho: {"data":[{"Deal_Name":"Udoma (Service: Booking)","Amount":50,"Stage":"Pending","Contact_Name":{"id":"6560565000002735018"},"Vendor_Contact":{"id":"6560565000001542027"},"Property_Name":"Pishonserv Shortlest Apartment- Ikorodu","Check_in_Date":"2025-08-22","Check_out_Date":"2025-08-23","Booking_Status":"Pending","Booking_Date":"2025-08-22","Type":"House","Property_Type":"House","Closing_Date":"2025-09-21"}]}
+[22-Aug-2025 08:20:05 UTC] 📥 Zoho API Response (201): {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-08-21T23:20:04-09:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-08-21T23:20:04-09:00","id":"6560565000003080002","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[22-Aug-2025 08:20:05 UTC] ✅ Zoho Deal Created. Deal ID: 6560565000003080002 for booking ID: 147
+[22-Aug-2025 08:20:05 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=89&check_in=2025-08-22&check_out=2025-08-23&booking_id=147
+[22-Aug-2025 09:46:28 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[22-Aug-2025 09:46:28 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Udoma (Service: Booking)",
+            "Amount": 1000,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000002735018"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001542027"
+            },
+            "Property_Name": "Pishonserv Shortlest Apartment- Ikorodu",
+            "Check_in_Date": "2025-08-24",
+            "Check_out_Date": "2025-08-25",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-08-22",
+            "Type": "House",
+            "Property_Type": "House",
+            "Closing_Date": "2025-09-21"
+        }
+    ]
+}
+[22-Aug-2025 09:46:28 UTC] 📤 Sending to Zoho: {"data":[{"Deal_Name":"Udoma (Service: Booking)","Amount":1000,"Stage":"Pending","Contact_Name":{"id":"6560565000002735018"},"Vendor_Contact":{"id":"6560565000001542027"},"Property_Name":"Pishonserv Shortlest Apartment- Ikorodu","Check_in_Date":"2025-08-24","Check_out_Date":"2025-08-25","Booking_Status":"Pending","Booking_Date":"2025-08-22","Type":"House","Property_Type":"House","Closing_Date":"2025-09-21"}]}
+[22-Aug-2025 09:46:29 UTC] 📥 Zoho API Response (201): {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-08-22T00:46:28-09:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-08-22T00:46:28-09:00","id":"6560565000003089002","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[22-Aug-2025 09:46:29 UTC] ✅ Zoho Deal Created. Deal ID: 6560565000003089002 for booking ID: 148
+[22-Aug-2025 09:46:29 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=89&check_in=2025-08-24&check_out=2025-08-25&booking_id=148
+[22-Aug-2025 09:53:39 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[22-Aug-2025 09:53:39 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Udoma (Service: Booking)",
+            "Amount": 1000,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000002735018"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001542027"
+            },
+            "Property_Name": "Pishonserv Shortlest Apartment- Ikorodu",
+            "Check_in_Date": "2025-08-24",
+            "Check_out_Date": "2025-08-25",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-08-22",
+            "Type": "House",
+            "Property_Type": "House",
+            "Closing_Date": "2025-09-21"
+        }
+    ]
+}
+[22-Aug-2025 09:53:39 UTC] 📤 Sending to Zoho: {"data":[{"Deal_Name":"Udoma (Service: Booking)","Amount":1000,"Stage":"Pending","Contact_Name":{"id":"6560565000002735018"},"Vendor_Contact":{"id":"6560565000001542027"},"Property_Name":"Pishonserv Shortlest Apartment- Ikorodu","Check_in_Date":"2025-08-24","Check_out_Date":"2025-08-25","Booking_Status":"Pending","Booking_Date":"2025-08-22","Type":"House","Property_Type":"House","Closing_Date":"2025-09-21"}]}
+[22-Aug-2025 09:53:40 UTC] 📥 Zoho API Response (201): {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-08-22T00:53:40-09:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-08-22T00:53:40-09:00","id":"6560565000003090001","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[22-Aug-2025 09:53:40 UTC] ✅ Zoho Deal Created. Deal ID: 6560565000003090001 for booking ID: 149
+[22-Aug-2025 09:53:40 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=89&check_in=2025-08-24&check_out=2025-08-25&booking_id=149
+[26-Aug-2025 13:48:18 UTC] ❌ Zoho Lead Conversion Failed: {"data":[{"code":"ID_ALREADY_CONVERTED","details":[],"message":"id already converted","status":"error"}]}
+[26-Aug-2025 13:48:18 UTC] ❌ Zoho contact ID missing after lead conversion. Booking ID: 150
+[26-Aug-2025 13:48:18 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=94&check_in=2025-08-26&check_out=2025-08-29&booking_id=150
+[26-Aug-2025 15:02:39 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[26-Aug-2025 15:02:39 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Aug-2025 10:40:36 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Aug-2025 10:40:36 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Aug-2025 16:24:16 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Aug-2025 16:24:16 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[29-Aug-2025 03:03:22 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[29-Aug-2025 03:03:22 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[29-Aug-2025 14:23:17 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[29-Aug-2025 14:23:17 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[29-Aug-2025 14:23:18 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[29-Aug-2025 14:23:18 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[29-Aug-2025 18:24:24 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[29-Aug-2025 18:24:24 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[29-Aug-2025 23:29:04 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[29-Aug-2025 23:29:04 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-Aug-2025 00:38:42 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-Aug-2025 00:38:42 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-Aug-2025 02:40:42 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-Aug-2025 02:40:42 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-Aug-2025 02:51:55 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-Aug-2025 02:51:55 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-Aug-2025 04:39:40 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-Aug-2025 04:39:40 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-Aug-2025 07:53:41 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-Aug-2025 07:53:41 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-Aug-2025 08:16:11 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-Aug-2025 08:16:11 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-Aug-2025 08:38:41 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-Aug-2025 08:38:41 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-Aug-2025 16:38:01 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-Aug-2025 16:38:01 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-Aug-2025 16:51:11 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-Aug-2025 16:51:11 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-Aug-2025 17:01:11 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-Aug-2025 17:01:11 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[31-Aug-2025 05:00:50 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[31-Aug-2025 05:00:50 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[31-Aug-2025 08:42:14 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[31-Aug-2025 08:42:14 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[01-Sep-2025 08:47:53 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[01-Sep-2025 08:47:53 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[02-Sep-2025 15:32:39 UTC] ❌ Zoho Lead Conversion Failed: {"data":[{"code":"ID_ALREADY_CONVERTED","details":[],"message":"id already converted","status":"error"}]}
+[02-Sep-2025 15:32:39 UTC] ❌ Zoho contact ID missing after lead conversion. Booking ID: 151
+[02-Sep-2025 15:32:39 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=89&check_in=2025-09-02&check_out=2025-09-03&booking_id=151
+[02-Sep-2025 15:46:50 UTC] ❌ Zoho Lead Conversion Failed: {"data":[{"code":"ID_ALREADY_CONVERTED","details":[],"message":"id already converted","status":"error"}]}
+[02-Sep-2025 15:46:50 UTC] ❌ Zoho contact ID missing after lead conversion. Booking ID: 152
+[02-Sep-2025 15:46:50 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=94&check_in=2025-09-02&check_out=2025-09-04&booking_id=152
+[03-Sep-2025 08:47:12 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[03-Sep-2025 08:47:12 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[06-Sep-2025 06:57:59 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[06-Sep-2025 06:57:59 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[07-Sep-2025 19:43:21 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[07-Sep-2025 19:43:21 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[08-Sep-2025 23:32:57 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[08-Sep-2025 23:32:57 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[09-Sep-2025 10:40:07 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[09-Sep-2025 10:40:07 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[10-Sep-2025 02:44:58 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[10-Sep-2025 02:44:58 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Arome (Service: Booking)",
+            "Amount": 1000,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000003266001"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000001542027"
+            },
+            "Property_Name": "Pishonserv Shortlest Apartment- Ikorodu",
+            "Check_in_Date": "2025-09-10",
+            "Check_out_Date": "2025-09-11",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-09-10",
+            "Type": "House",
+            "Property_Type": "House",
+            "Closing_Date": "2025-10-10"
+        }
+    ]
+}
+[10-Sep-2025 02:44:58 UTC] 📤 Sending to Zoho: {"data":[{"Deal_Name":"Arome (Service: Booking)","Amount":1000,"Stage":"Pending","Contact_Name":{"id":"6560565000003266001"},"Vendor_Contact":{"id":"6560565000001542027"},"Property_Name":"Pishonserv Shortlest Apartment- Ikorodu","Check_in_Date":"2025-09-10","Check_out_Date":"2025-09-11","Booking_Status":"Pending","Booking_Date":"2025-09-10","Type":"House","Property_Type":"House","Closing_Date":"2025-10-10"}]}
+[10-Sep-2025 02:44:59 UTC] 📥 Zoho API Response (201): {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-09-09T17:44:59-09:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-09-09T17:44:59-09:00","id":"6560565000003268002","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[10-Sep-2025 02:44:59 UTC] ✅ Zoho Deal Created. Deal ID: 6560565000003268002 for booking ID: 153
+[10-Sep-2025 02:44:59 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=89&check_in=2025-09-10&check_out=2025-09-11&booking_id=153
+[10-Sep-2025 03:29:42 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[10-Sep-2025 03:29:42 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[10-Sep-2025 14:46:56 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[10-Sep-2025 14:46:56 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[10-Sep-2025 18:36:56 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[10-Sep-2025 18:36:56 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[11-Sep-2025 01:09:52 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[11-Sep-2025 01:09:52 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[13-Sep-2025 01:14:00 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[13-Sep-2025 01:14:00 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[13-Sep-2025 01:14:04 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[13-Sep-2025 01:14:04 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[13-Sep-2025 01:14:08 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[13-Sep-2025 01:14:08 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[13-Sep-2025 01:14:12 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[13-Sep-2025 01:14:12 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[13-Sep-2025 18:21:20 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[13-Sep-2025 18:21:20 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[15-Sep-2025 21:08:26 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[15-Sep-2025 21:08:26 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[15-Sep-2025 21:19:45 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[15-Sep-2025 21:19:45 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[15-Sep-2025 21:30:22 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[15-Sep-2025 21:30:22 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[15-Sep-2025 21:39:58 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[15-Sep-2025 21:39:58 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[16-Sep-2025 05:17:19 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[16-Sep-2025 05:17:19 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[16-Sep-2025 09:06:28 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[16-Sep-2025 09:06:28 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[18-Sep-2025 17:35:48 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[18-Sep-2025 17:35:48 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[19-Sep-2025 03:18:55 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[19-Sep-2025 03:18:55 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[19-Sep-2025 14:31:49 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[19-Sep-2025 14:31:49 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[19-Sep-2025 15:51:29 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[19-Sep-2025 15:51:29 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[19-Sep-2025 16:38:48 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[19-Sep-2025 16:38:48 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[20-Sep-2025 16:58:33 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[20-Sep-2025 16:58:33 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[20-Sep-2025 20:16:13 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[20-Sep-2025 20:16:13 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[21-Sep-2025 02:39:41 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[21-Sep-2025 02:39:41 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[25-Sep-2025 14:49:44 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[25-Sep-2025 14:49:44 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Sep-2025 10:38:28 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Sep-2025 10:38:28 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Sep-2025 17:34:59 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Sep-2025 17:34:59 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Sep-2025 21:41:21 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Sep-2025 21:41:21 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[29-Sep-2025 00:42:06 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[29-Sep-2025 00:42:06 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[29-Sep-2025 01:10:23 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[29-Sep-2025 01:10:23 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[29-Sep-2025 19:13:46 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[29-Sep-2025 19:13:46 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-Sep-2025 00:24:13 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-Sep-2025 00:24:13 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-Sep-2025 09:28:35 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-Sep-2025 09:28:35 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[02-Oct-2025 01:15:12 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[02-Oct-2025 01:15:12 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[02-Oct-2025 09:59:30 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[02-Oct-2025 09:59:30 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[02-Oct-2025 10:05:07 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[02-Oct-2025 10:05:07 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[02-Oct-2025 10:11:03 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[02-Oct-2025 10:11:03 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[02-Oct-2025 10:16:30 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[02-Oct-2025 10:16:30 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[02-Oct-2025 18:29:14 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[02-Oct-2025 18:29:14 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[05-Oct-2025 09:16:34 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[05-Oct-2025 09:16:34 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[07-Oct-2025 18:20:58 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[07-Oct-2025 18:20:58 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[08-Oct-2025 04:03:55 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[08-Oct-2025 04:03:55 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[09-Oct-2025 03:41:21 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[09-Oct-2025 03:41:21 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[12-Oct-2025 23:29:33 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[12-Oct-2025 23:29:33 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[12-Oct-2025 23:51:38 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[12-Oct-2025 23:51:38 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[13-Oct-2025 00:14:19 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[13-Oct-2025 00:14:19 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[13-Oct-2025 16:39:19 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[13-Oct-2025 16:39:19 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[13-Oct-2025 17:44:54 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[13-Oct-2025 17:44:54 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[14-Oct-2025 01:39:29 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[14-Oct-2025 01:39:29 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[14-Oct-2025 04:06:20 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[14-Oct-2025 04:06:20 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[14-Oct-2025 18:22:26 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[14-Oct-2025 18:22:26 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[15-Oct-2025 15:40:44 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[15-Oct-2025 15:40:44 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[16-Oct-2025 16:37:47 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[16-Oct-2025 16:37:47 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[17-Oct-2025 10:20:54 UTC] ❌ Zoho Lead Conversion Failed: {"data":[{"code":"ID_ALREADY_CONVERTED","details":[],"message":"id already converted","status":"error"}]}
+[17-Oct-2025 10:20:54 UTC] ❌ Zoho contact ID missing after lead conversion. Booking ID: 154
+[17-Oct-2025 10:20:54 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=89&check_in=2025-10-17&check_out=2025-10-19&booking_id=154
+[18-Oct-2025 08:49:58 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[18-Oct-2025 08:49:58 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[18-Oct-2025 15:07:32 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[18-Oct-2025 15:07:32 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[18-Oct-2025 15:56:19 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[18-Oct-2025 15:56:19 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[18-Oct-2025 16:49:33 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[18-Oct-2025 16:49:33 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[18-Oct-2025 17:40:20 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[18-Oct-2025 17:40:20 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[18-Oct-2025 23:27:58 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[18-Oct-2025 23:27:58 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[19-Oct-2025 04:00:19 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[19-Oct-2025 04:00:19 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[21-Oct-2025 02:11:28 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[21-Oct-2025 02:11:28 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[21-Oct-2025 15:30:43 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[21-Oct-2025 15:30:43 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Pishonserv (Service: Booking)",
+            "Amount": 2000,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001542027"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000003022001"
+            },
+            "Property_Name": "Brand new 1 Bedroom Apartment",
+            "Check_in_Date": "2025-10-21",
+            "Check_out_Date": "2025-10-22",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-10-21",
+            "Type": "Apartment",
+            "Property_Type": "Apartment",
+            "Closing_Date": "2025-11-20"
+        }
+    ]
+}
+[21-Oct-2025 15:30:43 UTC] 📤 Sending to Zoho: {"data":[{"Deal_Name":"Pishonserv (Service: Booking)","Amount":2000,"Stage":"Pending","Contact_Name":{"id":"6560565000001542027"},"Vendor_Contact":{"id":"6560565000003022001"},"Property_Name":"Brand new 1 Bedroom Apartment","Check_in_Date":"2025-10-21","Check_out_Date":"2025-10-22","Booking_Status":"Pending","Booking_Date":"2025-10-21","Type":"Apartment","Property_Type":"Apartment","Closing_Date":"2025-11-20"}]}
+[21-Oct-2025 15:30:43 UTC] 📥 Zoho API Response (201): {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-10-21T16:30:43+01:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-10-21T16:30:43+01:00","id":"6560565000003506001","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[21-Oct-2025 15:30:43 UTC] ✅ Zoho Deal Created. Deal ID: 6560565000003506001 for booking ID: 155
+[21-Oct-2025 15:30:43 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=102&check_in=2025-10-21&check_out=2025-10-22&booking_id=155
+[22-Oct-2025 10:57:16 UTC] ✅ Zoho Deals API URL: https://www.zohoapis.com/crm/v2/Deals
+[22-Oct-2025 10:57:16 UTC] ✅ Zoho Deals API DATA: {
+    "data": [
+        {
+            "Deal_Name": "Pishonserv (Service: Booking)",
+            "Amount": 2000,
+            "Stage": "Pending",
+            "Contact_Name": {
+                "id": "6560565000001542027"
+            },
+            "Vendor_Contact": {
+                "id": "6560565000003022001"
+            },
+            "Property_Name": "Brand new 1 Bedroom Apartment",
+            "Check_in_Date": "2025-10-22",
+            "Check_out_Date": "2025-10-23",
+            "Booking_Status": "Pending",
+            "Booking_Date": "2025-10-22",
+            "Type": "Apartment",
+            "Property_Type": "Apartment",
+            "Closing_Date": "2025-11-21"
+        }
+    ]
+}
+[22-Oct-2025 10:57:16 UTC] 📤 Sending to Zoho: {"data":[{"Deal_Name":"Pishonserv (Service: Booking)","Amount":2000,"Stage":"Pending","Contact_Name":{"id":"6560565000001542027"},"Vendor_Contact":{"id":"6560565000003022001"},"Property_Name":"Brand new 1 Bedroom Apartment","Check_in_Date":"2025-10-22","Check_out_Date":"2025-10-23","Booking_Status":"Pending","Booking_Date":"2025-10-22","Type":"Apartment","Property_Type":"Apartment","Closing_Date":"2025-11-21"}]}
+[22-Oct-2025 10:57:17 UTC] 📥 Zoho API Response (201): {"data":[{"code":"SUCCESS","details":{"Modified_Time":"2025-10-22T11:57:17+01:00","Modified_By":{"name":"Pishonserv","id":"6560565000000494001"},"Created_Time":"2025-10-22T11:57:17+01:00","id":"6560565000003520001","Created_By":{"name":"Pishonserv","id":"6560565000000494001"}},"message":"record added","status":"success"}]}
+[22-Oct-2025 10:57:17 UTC] ✅ Zoho Deal Created. Deal ID: 6560565000003520001 for booking ID: 156
+[22-Oct-2025 10:57:17 UTC] 🔄 Redirecting to: dashboard/checkout.php?property_id=102&check_in=2025-10-22&check_out=2025-10-23&booking_id=156
+[23-Oct-2025 02:52:46 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[23-Oct-2025 02:52:46 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[23-Oct-2025 08:45:40 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[23-Oct-2025 08:45:40 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[26-Oct-2025 12:07:27 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[26-Oct-2025 12:07:27 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[26-Oct-2025 18:24:57 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[26-Oct-2025 18:24:57 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[27-Oct-2025 00:34:46 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[27-Oct-2025 00:34:46 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Oct-2025 07:08:36 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Oct-2025 07:08:36 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[28-Oct-2025 23:44:51 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[28-Oct-2025 23:44:51 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-Oct-2025 04:16:44 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-Oct-2025 04:16:44 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-Oct-2025 05:51:27 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-Oct-2025 05:51:27 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-Oct-2025 06:18:21 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-Oct-2025 06:18:21 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-Oct-2025 08:30:56 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-Oct-2025 08:30:56 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-Oct-2025 11:33:07 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-Oct-2025 11:33:07 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-Oct-2025 15:54:07 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-Oct-2025 15:54:07 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-Oct-2025 19:53:52 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-Oct-2025 19:53:52 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-Oct-2025 21:25:09 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-Oct-2025 21:25:09 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[30-Oct-2025 23:02:46 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[30-Oct-2025 23:02:46 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[31-Oct-2025 00:08:34 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[31-Oct-2025 00:08:34 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[01-Nov-2025 01:42:41 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[01-Nov-2025 01:42:41 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[10-Nov-2025 00:26:01 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[10-Nov-2025 00:26:01 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[11-Nov-2025 10:47:40 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[11-Nov-2025 10:47:40 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[12-Nov-2025 21:12:02 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[12-Nov-2025 21:12:02 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[13-Nov-2025 04:52:22 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[13-Nov-2025 04:52:22 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[13-Nov-2025 06:25:15 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[13-Nov-2025 06:25:15 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[13-Nov-2025 07:57:42 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[13-Nov-2025 07:57:42 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14
+[13-Nov-2025 09:31:38 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 13
+[13-Nov-2025 09:31:38 UTC] PHP Warning:  Undefined array key "property_id" in /home/u561302917/domains/pishonserv.com/public_html/book_property.php on line 14

@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pishonserv Real Estate API Docs</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'media',
+      theme: {
+        extend: {
+          colors: { brand: { DEFAULT: '#365CFF' } },
+          screens: {
+            'xs': '475px',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    /* Mobile menu animation */
+    .mobile-menu {
+      transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    }
+    
+    /* Responsive table styles */
+    .responsive-table {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    
+    .responsive-table table {
+      width: 100%;
+      min-width: 600px;
+    }
+
+    @media (max-width: 640px) {
+      .responsive-table table {
+        min-width: 100%;
+      }
+      .responsive-table th,
+      .responsive-table td {
+        padding: 0.5rem;
+        font-size: 0.875rem;
+      }
+    }
+    
+    /* Code block responsiveness */
+    pre code {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      font-size: 0.875rem;
+    }
+
+    @media (max-width: 640px) {
+      pre code {
+        font-size: 0.75rem;
+      }
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-900 dark:text-slate-100 font-sans">
+  <!-- Header -->
+  <header class="sticky top-0 z-30 border-b border-slate-200/70 dark:border-slate-700/60 bg-white/80 dark:bg-slate-900/70 backdrop-blur">
+    <div class="max-w-7xl mx-auto px-4 xs:px-6 sm:px-8 lg:px-10 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-brand to-emerald-400"></div>
+        <div>
+          <h1 class="text-base xs:text-lg sm:text-xl font-semibold">Pishonserv Real Estate API</h1>
+          <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400">Private API for Botpress · Superadmin-only</p>
+        </div>
+      </div>
+      <button id="menuBtn" class="inline-flex lg:hidden items-center gap-2 rounded-md border border-slate-300 dark:border-slate-700 px-3 py-1.5 text-sm hover:bg-slate-100 dark:hover:bg-slate-800">
+        Menu
+        <svg class="w-4 h-4" viewBox="0 0 20 20" fill="currentColor"><path d="M3 6h14M3 10h14M3 14h14"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div id="mobileMenu" class="mobile-menu fixed inset-0 z-40 bg-white dark:bg-slate-900 p-4 xs:p-6 transform -translate-x-full lg:hidden overflow-y-auto">
+    <div class="flex justify-between items-center mb-6">
+      <h2 class="text-lg xs:text-xl font-semibold">Navigation</h2>
+      <button id="closeMenu" class="p-2 rounded-md hover:bg-slate-100 dark:hover:bg-slate-800" aria-label="Close menu">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+    <nav class="space-y-2">
+      <a href="#auth" class="block px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-sm xs:text-base" onclick="closeMobileMenu()">Authentication</a>
+      <a href="#endpoints" class="block px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-sm xs:text-base" onclick="closeMobileMenu()">Endpoints</a>
+      <a href="#availability" class="block px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-sm xs:text-base" onclick="closeMobileMenu()">Check Availability</a>
+      <a href="#get-property" class="block px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-sm xs:text-base" onclick="closeMobileMenu()">Get Property</a>
+      <a href="#create-booking" class="block px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-sm xs:text-base" onclick="closeMobileMenu()">Create Booking</a>
+      <a href="#errors" class="block px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-sm xs:text-base" onclick="closeMobileMenu()">Error Codes</a>
+      <a href="#botpress" class="block px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-sm xs:text-base" onclick="closeMobileMenu()">Botpress Setup</a>
+      <a href="#curl" class="block px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-sm xs:text-base" onclick="closeMobileMenu()">cURL Tests</a>
+      <a href="#faq" class="block px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-sm xs:text-base" onclick="closeMobileMenu()">FAQ</a>
+    </nav>
+  </div>
+
+  <div class="max-w-7xl mx-auto px-4 xs:px-6 sm:px-8 lg:px-10 py-6 xs:py-8 sm:py-10 lg:py-12">
+    <!-- Top badges -->
+    <div class="mb-6 flex flex-wrap gap-2">
+      <span class="text-xs px-2.5 py-1 rounded-full border border-slate-300/80 dark:border-slate-700/80">Base URL: <code class="font-mono">https://pishonserv.com/api/v1</code></span>
+      <span class="text-xs px-2.5 py-1 rounded-full border border-slate-300/80 dark:border-slate-700/80">Auth: Bearer Token</span>
+      <span class="text-xs px-2.5 py-1 rounded-full border border-slate-300/80 dark:border-slate-700/80">Content-Type: application/json</span>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 sm:gap-6 lg:gap-8">
+      <!-- Sidebar -->
+      <aside id="sidebar" class="lg:col-span-3 h-max sticky top-20 hidden lg:block">
+        <nav class="space-y-1 rounded-xl border border-slate-200 dark:border-slate-700 p-3 bg-white dark:bg-slate-900">
+          <h3 class="px-2 pt-1 pb-2 text-[11px] tracking-wide uppercase text-slate-500 dark:text-slate-400">Contents</h3>
+          <a href="#auth" class="block px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-sm">Authentication</a>
+          <a href="#endpoints" class="block px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-sm">Endpoints</a>
+          <a href="#availability" class="block px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-sm">Check Availability</a>
+          <a href="#get-property" class="block px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-sm">Get Property</a>
+          <a href="#create-booking" class="block px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-sm">Create Booking</a>
+          <a href="#errors" class="block px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-sm">Error Codes</a>
+          <a href="#botpress" class="block px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-sm">Botpress Setup</a>
+          <a href="#curl" class="block px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-sm">cURL Tests</a>
+          <a href="#faq" class="block px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-sm">FAQ</a>
+        </nav>
+      </aside>
+
+      <!-- Main content -->
+      <main class="lg:col-span-9 space-y-6 sm:space-y-8">
+        <!-- Auth -->
+        <section id="auth" class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-4 xs:p-5 sm:p-6">
+          <h2 class="text-lg xs:text-xl sm:text-2xl font-semibold mb-3">Authentication</h2>
+          <p class="text-sm text-slate-600 dark:text-slate-300">All endpoints require a valid API key from a user with role <code class="font-mono">superadmin</code> (<code class="font-mono">users.api_key</code>).</p>
+          <pre class="text-sm rounded-lg p-3 bg-slate-900 text-slate-100 overflow-auto mt-3"><code>Authorization: Bearer YOUR_SUPERADMIN_API_KEY
+Content-Type: application/json</code></pre>
+          <p class="mt-2 text-xs text-slate-500 dark:text-slate-400">💡 In Botpress, store the API key securely and include it in your HTTP actions.</p>
+        </section>
+
+        <!-- Endpoints -->
+        <section id="endpoints" class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-4 xs:p-5 sm:p-6">
+          <h2 class="text-lg xs:text-xl sm:text-2xl font-semibold mb-3">Endpoints</h2>
+          <div class="responsive-table">
+            <table class="min-w-full text-sm">
+              <thead>
+                <tr class="text-left text-slate-500 dark:text-slate-400 border-b border-slate-200 dark:border-slate-700">
+                  <th class="py-2 px-2">Method</th><th class="py-2 px-2">Full URL</th><th class="py-2 px-2">Description</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+                <tr><td class="px-2">POST</td><td class="px-2"><code>https://pishonserv.com/api/v1/availability</code></td><td class="px-2">Check property availability</td></tr>
+                <tr><td class="px-2">GET</td><td class="px-2"><code>https://pishonserv.com/api/v1/properties/{id}</code></td><td class="px-2">Fetch property details</td></tr>
+                <tr><td class="px-2">POST</td><td class="px-2"><code>https://pishonserv.com/api/v1/bookings</code></td><td class="px-2">Create a pending booking</td></tr>
+                <tr><td class="px-2">PATCH</td><td class="px-2"><code>https://pishonserv.com/api/v1/bookings/{id}</code></td><td class="px-2">Update booking</td></tr>
+                <tr><td class="px-2">GET</td><td class="px-2"><code>https://pishonserv.com/api/v1/properties</code></td><td class="px-2">List properties</td></tr>
+                <tr><td class="px-2">POST</td><td class="px-2"><code>https://pishonserv.com/api/v1/property/similar</code></td><td class="px-2">Find similar properties</td></tr>
+                <tr><td class="px-2">POST</td><td class="px-2"><code>https://pishonserv.com/api/v1/payments</code></td><td class="px-2">Record payment attempt</td></tr>
+                <tr><td class="px-2">GET</td><td class="px-2"><code>https://pishonserv.com/api/v1/payments</code></td><td class="px-2">List payments</td></tr>
+                <tr><td class="px-2">POST</td><td class="px-2"><code>https://pishonserv.com/api/v1/payment/initiate</code></td><td class="px-2">Initialize Paystack payment</td></tr>
+                <tr><td class="px-2">POST</td><td class="px-2"><code>https://pishonserv.com/api/v1/payment/webhook</code></td><td class="px-2">Paystack webhook</td></tr>
+                <tr><td class="px-2">POST</td><td class="px-2"><code>https://pishonserv.com/api/v1/vendor/request</code></td><td class="px-2">Send vendor request via WhatsApp</td></tr>
+                <tr><td class="px-2">POST</td><td class="px-2"><code>https://pishonserv.com/api/v1/vendor/reply</code></td><td class="px-2">Receive vendor reply (sanitize/log)</td></tr>
+                <tr><td class="px-2">POST</td><td class="px-2"><code>https://pishonserv.com/api/v1/conversation/create</code></td><td class="px-2">Create conversation and bootstrap Drive</td></tr>
+                <tr><td class="px-2">POST</td><td class="px-2"><code>https://pishonserv.com/api/v1/crm/log-interaction</code></td><td class="px-2">Log interaction to Drive</td></tr>
+                <tr><td class="px-2">GET</td><td class="px-2"><code>https://pishonserv.com/api/v1/whatsapp/incoming</code></td><td class="px-2">Meta webhook verification (hub.challenge)</td></tr>
+                <tr><td class="px-2">POST</td><td class="px-2"><code>https://pishonserv.com/api/v1/whatsapp/incoming</code></td><td class="px-2">WhatsApp inbound (signature, sanitize, event)</td></tr>
+                <tr><td class="px-2">POST</td><td class="px-2"><code>https://pishonserv.com/api/v1/vendor/check-timeouts</code></td><td class="px-2">Cleanup expired vendor mappings</td></tr>
+                <tr><td class="px-2">POST</td><td class="px-2"><code>https://pishonserv.com/api/v1/botpress/vendor-reply</code></td><td class="px-2">Relay vendor reply to Botpress</td></tr>
+                <tr><td class="px-2">POST</td><td class="px-2"><code>https://pishonserv.com/api/v1/botpress/payment-success</code></td><td class="px-2">Relay payment success to Botpress</td></tr>
+                <tr><td class="px-2">GET</td><td class="px-2"><code>https://pishonserv.com/api/v1/users</code></td><td class="px-2">List users</td></tr>
+                <tr><td class="px-2">GET</td><td class="px-2"><code>https://pishonserv.com/api/v1/users/{id}</code></td><td class="px-2">Fetch user details</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- Availability -->
+        <section id="availability" class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-4 xs:p-5 sm:p-6">
+          <h2 class="text-lg xs:text-xl sm:text-2xl font-semibold mb-3">POST /availability</h2>
+          <p class="text-sm">Checks if a property is bookable.</p>
+          <h3 class="font-medium mt-4 mb-2 text-base sm:text-lg">Request</h3>
+          <pre class="text-sm rounded-lg p-3 bg-slate-900 text-slate-100"><code>{
+  "property_id": 97
+}</code></pre>
+          <h3 class="font-medium mt-4 mb-2 text-base sm:text-lg">Response</h3>
+          <pre class="text-sm rounded-lg p-3 bg-slate-900 text-slate-100"><code>{
+  "property_id": 97,
+  "available": true,
+  "status": "available",
+  "admin_approved": 1,
+  "expired": false,
+  "listing_type": "short_let"
+}</code></pre>
+        </section>
+
+        <!-- Get Property -->
+        <section id="get-property" class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-4 xs:p-5 sm:p-6">
+          <h2 class="text-lg xs:text-xl sm:text-2xl font-semibold mb-3">GET /properties/{id}</h2>
+          <p class="text-sm">Retrieve full property info.</p>
+          <pre class="text-sm rounded-lg p-3 bg-slate-900 text-slate-100"><code>{
+  "data": {
+    "id": 97,
+    "title": "3 Bedroom Duplex",
+    "price": "180000.00",
+    "location": "Lagos, Nigeria",
+    "status": "available"
+  }
+}</code></pre>
+        </section>
+
+        <!-- Create Booking -->
+        <section id="create-booking" class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-4 xs:p-5 sm:p-6">
+          <h2 class="text-lg xs:text-xl sm:text-2xl font-semibold mb-3">POST /bookings</h2>
+          <p class="text-sm">Creates a booking and auto-reserves the property.</p>
+          <h3 class="font-medium mt-4 mb-2 text-base sm:text-lg">Request</h3>
+          <pre class="text-sm rounded-lg p-3 bg-slate-900 text-slate-100"><code>{
+  "user_id": 12,
+  "property_id": 97,
+  "check_in_date": "2025-09-12",
+  "check_out_date": "2025-09-16",
+  "amount": "180000.00",
+  "zoho_deal_id": "ZDeal_123"
+}</code></pre>
+          <h3 class="font-medium mt-4 mb-2 text-base sm:text-lg">Response</h3>
+          <pre class="text-sm rounded-lg p-3 bg-slate-900 text-slate-100"><code>{
+  "ok": true,
+  "booking_id": 154,
+  "status": "pending"
+}</code></pre>
+        </section>
+
+        <!-- Errors -->
+        <section id="errors" class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-4 xs:p-5 sm:p-6">
+          <h2 class="text-lg xs:text-xl sm:text-2xl font-semibold mb-3">Error Codes</h2>
+          <div class="responsive-table">
+            <table class="min-w-full text-sm">
+              <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+                <tr><td class="px-2">401</td><td class="px-2">Invalid/missing API key</td></tr>
+                <tr><td class="px-2">403</td><td class="px-2">Forbidden (only superadmin allowed)</td></tr>
+                <tr><td class="px-2">404</td><td class="px-2">Not found</td></tr>
+                <tr><td class="px-2">422</td><td class="px-2">Validation error</td></tr>
+                <tr><td class="px-2">500</td><td class="px-2">Server error</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- Botpress Setup -->
+        <section id="botpress" class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-4 xs:p-5 sm:p-6">
+          <h2 class="text-lg xs:text-xl sm:text-2xl font-semibold mb-3">Botpress Integration</h2>
+          <p class="text-sm">Botpress calls secured backend endpoints with:</p>
+          <pre class="text-sm rounded-lg p-3 bg-slate-900 text-slate-100"><code>Authorization: Bearer YOUR_SUPERADMIN_API_KEY
+Content-Type: application/json</code></pre>
+          <p class="text-sm mt-3">Backend emits events to the Botpress Events API with a Botpress API token:</p>
+          <pre class="text-sm rounded-lg p-3 bg-slate-900 text-slate-100"><code>POST https://api.botpress.cloud/v1/bots/c889b0dc-c8e5-4e3e-a191-158721ff6b56/events
+Authorization: Bearer BOTPRESS_API_TOKEN
+{
+  "type": "custom",
+  "name": "vendor_reply",
+  "payload": {"conversation_id": "C-123", "reply_message": "..."}
+}</code></pre>
+        </section>
+
+        <!-- cURL -->
+        <section id="curl" class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-4 xs:p-5 sm:p-6">
+          <h2 class="text-lg xs:text-xl sm:text-2xl font-semibold mb-3">cURL Tests</h2>
+          <pre class="text-sm rounded-lg p-3 bg-slate-900 text-slate-100"><code># Availability
+curl -X POST https://pishonserv.com/api/v1/availability \
+  -H "Authorization: Bearer YOUR_SUPERADMIN_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"property_id":97}'
+
+# Similar properties
+curl -X POST https://pishonserv.com/api/v1/property/similar \
+  -H "Authorization: Bearer YOUR_SUPERADMIN_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"location":"Lekki","type":"apartment","price_range":{"min":100000,"max":200000}}'
+
+# Initialize payment (Paystack)
+curl -X POST https://pishonserv.com/api/v1/payment/initiate \
+  -H "Authorization: Bearer YOUR_SUPERADMIN_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"property_id":97,"amount":50000,"customer_email":"john@example.com","user_id":9}'
+
+# List payments
+curl -X GET "https://pishonserv.com/api/v1/payments?status=completed&limit=10" \
+  -H "Authorization: Bearer YOUR_SUPERADMIN_API_KEY"</code></pre>
+        </section>
+
+        <!-- FAQ -->
+        <section id="faq" class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-4 xs:p-5 sm:p-6">
+          <h2 class="text-lg xs:text-xl sm:text-2xl font-semibold mb-3">FAQ</h2>
+          <p class="text-sm"><b>Q: Do I put the API key in the FibURL?</b><br>No. Always in the <code>Authorization</code> header. In n8n, you set it once in credentials.</p>
+          <p class="mt-2 text-sm"><b>Q: Who can use the API?</b><br>Only superadmin with a valid API key.</p>
+        </section>
+        
+        <!-- Botpress Setup -->
+        <section id="events" class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-4 xs:p-5 sm:p-6">
+          <h2 class="text-lg xs:text-xl sm:text-2xl font-semibold mb-3">Botpress Events</h2>
+          <p class="text-sm">Required events sent by backend:</p>
+          <pre class="text-sm rounded-lg p-3 bg-slate-900 text-slate-100"><code>// vendor_reply
+{
+  "type": "custom",
+  "name": "vendor_reply",
+  "payload": {"conversation_id": "C-23423", "reply_message": "Yes, available"}
+}
+
+// vendor_timeout
+{
+  "type": "custom",
+  "name": "vendor_timeout",
+  "payload": {"conversation_id": "C-23423"}
+}
+
+// payment_success
+{
+  "type": "custom",
+  "name": "payment_success",
+  "payload": {"conversation_id": "C-23423", "amount": 50000, "payment_reference": "PSK_39393939", "status": "success"}
+}</code></pre>
+        </section>
+        
+        <!-- Payments -->
+        <section id="payments" class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-4 xs:p-5 sm:p-6">
+          <h2 class="text-lg xs:text-xl sm:text-2xl font-semibold mb-3">Payments</h2>
+          <h3 class="font-medium mb-2">POST /payment/initiate</h3>
+          <p class="text-sm">Initializes Paystack and returns a payment link plus reference.</p>
+          <pre class="text-sm rounded-lg p-3 bg-slate-900 text-slate-100"><code>{
+  "property_id": 97,
+  "amount": 50000,
+  "customer_email": "john@example.com",
+  "user_id": 9
+}</code></pre>
+          <h3 class="font-medium mt-4 mb-2">POST /payment/webhook</h3>
+          <p class="text-sm">Called by Paystack with signature; backend updates payment status.</p>
+        </section>
+        
+        <!-- Vendor -->
+        <section id="vendor" class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-4 xs:p-5 sm:p-6">
+          <h2 class="text-lg xs:text-xl sm:text-2xl font-semibold mb-3">Vendor</h2>
+          <h3 class="font-medium mb-2">POST /vendor/request</h3>
+          <p class="text-sm">Sends WhatsApp to property owner and logs to Drive. Requires <code>property_id</code> and optional <code>conversation_id</code>.</p>
+          <pre class="text-sm rounded-lg p-3 bg-slate-900 text-slate-100"><code>{
+  "property_id": 97,
+  "customer_question": "Is this still available?"
+}</code></pre>
+          <h3 class="font-medium mt-4 mb-2">POST /vendor/reply</h3>
+          <p class="text-sm">Accepts <code>raw_message</code>, sanitizes phones/emails, logs both.</p>
+        </section>
+        
+        <!-- Botpress Relays -->
+        <section id="relays" class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-4 xs:p-5 sm:p-6">
+          <h2 class="text-lg xs:text-xl sm:text-2xl font-semibold mb-3">Botpress Relays</h2>
+          <h3 class="font-medium mb-2">POST /botpress/vendor-reply</h3>
+          <p class="text-sm">Relays vendor reply to Botpress Events API.</p>
+          <h3 class="font-medium mt-4 mb-2">POST /botpress/payment-success</h3>
+          <p class="text-sm">Relays payment success to Botpress Events API.</p>
+        </section>
+
+        <!-- WhatsApp Cloud -->
+        <section id="whatsapp" class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-4 xs:p-5 sm:p-6">
+          <h2 class="text-lg xs:text-xl sm:text-2xl font-semibold mb-3">WhatsApp Cloud</h2>
+          <p class="text-sm">Configure Meta webhook to <code>/api/v1/whatsapp/incoming</code>. GET verifies with your <code>WHATSAPP_VERIFY_TOKEN</code>; POST validates <code>X-Hub-Signature-256</code> using <code>WHATSAPP_APP_SECRET</code>.</p>
+          <pre class="text-sm rounded-lg p-3 bg-slate-900 text-slate-100"><code># GET /whatsapp/incoming
+hub.mode=subscribe
+hub.verify_token=YOUR_TOKEN
+hub.challenge=CHALLENGE
+
+# POST /whatsapp/incoming
+X-Hub-Signature-256: sha256=...
+{"entry":[...]}</code></pre>
+        </section>
+
+        <!-- Environment Variables -->
+        <section id="env" class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-4 xs:p-5 sm:p-6">
+          <h2 class="text-lg xs:text-xl sm:text-2xl font-semibold mb-3">Environment Variables</h2>
+          <div class="responsive-table">
+            <table class="min-w-full text-sm">
+              <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+                <tr><td class="px-2"><code>WHATSAPP_VERIFY_TOKEN</code></td><td class="px-2">Webhook verification token (you choose)</td></tr>
+                <tr><td class="px-2"><code>WHATSAPP_APP_SECRET</code></td><td class="px-2">Meta App secret for signature validation</td></tr>
+                <tr><td class="px-2"><code>BOTPRESS_API_TOKEN</code></td><td class="px-2">Botpress API token for Events API</td></tr>
+                <tr><td class="px-2"><code>BOTPRESS_INCOMING_URL</code></td><td class="px-2">Defaults to Botpress Events API URL</td></tr>
+                <tr><td class="px-2"><code>DRIVE_ROOT_FOLDER_ID</code></td><td class="px-2">Google Drive root folder to store logs</td></tr>
+                <tr><td class="px-2"><code>GOOGLE_DRIVE_CREDENTIALS</code></td><td class="px-2">Path to service account JSON</td></tr>
+                <tr><td class="px-2"><code>PAYSTACK_SECRET_KEY</code></td><td class="px-2">Secret for initiating and verifying payments</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- Drive Logging -->
+        <section id="drive" class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-4 xs:p-5 sm:p-6">
+          <h2 class="text-lg xs:text-xl sm:text-2xl font-semibold mb-3">Google Drive Logging</h2>
+          <p class="text-sm">Each conversation can have a folder under the root. We store activity sheets, raw vendor messages, sanitized vendor messages, and payment logs.</p>
+        </section>
+
+        <!-- Testing Checklist -->
+        <section id="testing" class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-4 xs:p-5 sm:p-6">
+          <h2 class="text-lg xs:text-xl sm:text-2xl font-semibold mb-3">Testing Checklist</h2>
+          <ul class="list-disc ml-5 text-sm">
+            <li>Availability, property details, similar properties</li>
+            <li>Conversation create and Drive bootstrap</li>
+            <li>Vendor request via WhatsApp; inbound webhook; vendor_reply event</li>
+            <li>Vendor timeout mapping cleanup</li>
+            <li>Payment initiate; Paystack webhook; payment_success event</li>
+          </ul>
+        </section>
+        
+        <!-- Users -->
+        <section id="users" class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-4 xs:p-5 sm:p-6">
+          <h2 class="text-lg xs:text-xl sm:text-2xl font-semibold mb-3">Users</h2>
+          <p class="text-sm">Superadmin can list users or fetch by id.</p>
+          <pre class="text-sm rounded-lg p-3 bg-slate-900 text-slate-100"><code># List
+GET /users?role=agent&limit=20
+
+# Get by id
+GET /users/109</code></pre>
+        </section>
+        
+        <!-- Properties List -->
+        <section id="properties" class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-4 xs:p-5 sm:p-6">
+          <h2 class="text-lg xs:text-xl sm:text-2xl font-semibold mb-3">Properties List</h2>
+          <p class="text-sm">Filter by <code>listing_type</code>, <code>status</code>, <code>type</code>, <code>owner_id</code>, <code>location</code>, <code>bedrooms_min</code>, with pagination.</p>
+          <pre class="text-sm rounded-lg p-3 bg-slate-900 text-slate-100"><code>GET /properties?listing_type=short_let&status=available&limit=20&offset=0</code></pre>
+        </section>
+        
+        <!-- Similar Properties -->
+        <section id="similar" class="rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 p-4 xs:p-5 sm:p-6">
+          <h2 class="text-lg xs:text-xl sm:text-2xl font-semibold mb-3">Similar Properties</h2>
+          <p class="text-sm">POST body supports <code>location</code>, <code>type</code>, <code>bedrooms</code>, <code>price_range</code>.</p>
+          <pre class="text-sm rounded-lg p-3 bg-slate-900 text-slate-100"><code>{
+  "location": "Lekki",
+  "type": "apartment",
+  "bedrooms": 2,
+  "price_range": { "min": 100000, "max": 200000 }
+}</code></pre>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <script>
+    // Mobile menu functionality
+    const menuBtn = document.getElementById('menuBtn');
+    const closeMenu = document.getElementById('closeMenu');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    function openMobileMenu() {
+      mobileMenu.classList.remove('-translate-x-full');
+      mobileMenu.classList.add('translate-x-0', 'opacity-100');
+      document.body.style.overflow = 'hidden';
+      menuBtn.setAttribute('aria-expanded', 'true');
+    }
+
+    function closeMobileMenu() {
+      mobileMenu.classList.remove('translate-x-0', 'opacity-100');
+      mobileMenu.classList.add('-translate-x-full', 'opacity-0');
+      document.body.style.overflow = 'auto';
+      menuBtn.setAttribute('aria-expanded', 'false');
+    }
+
+    menuBtn.addEventListener('click', openMobileMenu);
+    closeMenu.addEventListener('click', closeMobileMenu);
+
+    // Close menu when clicking outside
+    mobileMenu.addEventListener('click', (e) => {
+      if (e.target === mobileMenu) {
+        closeMobileMenu();
+      }
+    });
+
+    // Close menu on ESC key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && mobileMenu.classList.contains('translate-x-0')) {
+        closeMobileMenu();
+      }
+    });
+
+    // Handle window resize to ensure proper menu state
+    window.addEventListener('resize', () => {
+      if (window.innerWidth >= 1024 && mobileMenu.classList.contains('translate-x-0')) {
+        closeMobileMenu();
+      }
+    });
+  </script>
+</body>
+</html>
